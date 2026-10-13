@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T18:35+09:00",
+ "generated_at": "2026-10-14T00:35+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -3019,7 +3019,7 @@
    "id": "steam-570-677383425371407609",
    "game": "DOTA",
    "kind": "patch",
-   "title": "7.41f Gameplay Patch",
+   "title": "7.41f ゲームプレイパッチ",
    "all_day": false,
    "dl": "likely",
    "status": "announced",
@@ -3028,13 +3028,13 @@
    ],
    "sources": [
     {
-     "label": "Steamのお知らせ「7.41f Gameplay Patch」",
+     "label": "Steamのお知らせ「7.41f ゲームプレイパッチ」",
      "url": "https://store.steampowered.com/news/app/570/view/677383425371407609"
     }
    ],
    "source_key": "steam:570",
    "start": "2026-09-16T03:44+09:00",
-   "excerpt": "Patch 7.41f is out now and you can check out the patch notes here. In addition, we've recently addressed the following issues: Fixed spot o…"
+   "excerpt": "パッチ7.41fがリリースされました。パッチノートはこちらでご確認ください。 さらに、以下の問題にも対処しています： トップのロシャンピット近くにあった、洞窟のジオメトリにヒーローが隠れられるスポットを修正 最初のセルバック期間に売却不可能なはずのアイテムに売却マークを付けられ…"
   },
   {
    "id": "nikke-4f808ec1a01fca4d22aa3b4a8d623fe16953",
@@ -4053,7 +4053,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4063,7 +4063,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4073,7 +4073,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4083,7 +4083,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4093,7 +4093,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "steam:570",
@@ -4103,7 +4103,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4113,7 +4113,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4123,7 +4123,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4133,7 +4133,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4143,7 +4143,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "tekken8",
@@ -4153,7 +4153,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "sf6_official",
@@ -4163,7 +4163,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4175,7 +4175,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4185,7 +4185,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4195,7 +4195,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4205,7 +4205,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "lol",
@@ -4215,7 +4215,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   },
   {
    "key": "nikke",
@@ -4225,7 +4225,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-13T18:35+09:00"
+   "last_success": "2026-10-14T00:35+09:00"
   }
  ]
 }
