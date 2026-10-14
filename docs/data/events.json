@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T00:50+09:00",
+ "generated_at": "2026-10-15T03:52+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -97,49 +97,6 @@
    "size": "約8GB（公式告知・PC）"
   },
   {
-   "id": "steam-2357570-685256480243320068",
-   "game": "OW",
-   "kind": "event",
-   "title": "Season 3: Into the Tiger's Den Livestream | Overwatch Breakdown",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: 配信）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「Season 3: Into the Tiger's Den Livestre…」",
-     "url": "https://store.steampowered.com/news/app/2357570/view/685256480243320068"
-    }
-   ],
-   "source_key": "steam:2357570",
-   "start": "2026-06-17T02:00+09:00",
-   "end": "2026-06-17T03:30+09:00",
-   "excerpt": "Get an even closer look Into the Tiger’s Den during our next Developer Livestream! Be sure to submit your Season 3 questions for a chance t…"
-  },
-  {
-   "id": "steam-2357570-696514211055930220",
-   "game": "OW",
-   "kind": "major",
-   "title": "Overwatch Reign of Talon - Season 3: Into the Tiger's Den Now Live!",
-   "all_day": false,
-   "dl": "likely",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: 大型アップデート）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「Overwatch Reign of Talon - Season 3: In…」",
-     "url": "https://store.steampowered.com/news/app/2357570/view/696514211055930220"
-    }
-   ],
-   "source_key": "steam:2357570",
-   "start": "2026-06-17T03:05+09:00",
-   "excerpt": "Are you ready to step Into the Tiger’s Den? A new chapter in the Reign of Talon starts here with the arrival of our newest Damage Hero, Shi…"
-  },
-  {
    "id": "steam-2357570-694261777025729030",
    "game": "OW",
    "kind": "event",
@@ -160,27 +117,6 @@
    "start": "2026-06-17T03:10+09:00",
    "end": "2026-07-08T03:00+09:00",
    "excerpt": "Anima Strike Meta EventAnima Strike is a three-week event that unfolds as you fight your way through the new Tokyo map, where Shion reigns …"
-  },
-  {
-   "id": "steam-2357570-694261777025729032",
-   "game": "OW",
-   "kind": "news",
-   "title": "Excavation Initiative",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「Excavation Initiative」",
-     "url": "https://store.steampowered.com/news/app/2357570/view/694261777025729032"
-    }
-   ],
-   "source_key": "steam:2357570",
-   "start": "2026-06-17T03:30+09:00",
-   "excerpt": "Excavation InitiativeExcavation Initiative rewards you for doing what you'd already be doing: playing Overwatch. Throughout the season, you…"
   },
   {
    "id": "steam-4162040-704396868946233231",
@@ -4026,7 +3962,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4036,7 +3972,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4046,7 +3982,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4056,7 +3992,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4066,7 +4002,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "steam:570",
@@ -4076,7 +4012,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4086,7 +4022,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4096,7 +4032,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4106,7 +4042,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4116,7 +4052,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "tekken8",
@@ -4126,7 +4062,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "sf6_official",
@@ -4136,7 +4072,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4148,7 +4084,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4158,7 +4094,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4168,7 +4104,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4178,7 +4114,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "lol",
@@ -4188,7 +4124,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   },
   {
    "key": "nikke",
@@ -4198,7 +4134,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-15T00:50+09:00"
+   "last_success": "2026-10-15T03:52+09:00"
   }
  ]
 }
