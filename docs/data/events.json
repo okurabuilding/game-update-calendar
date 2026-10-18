@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T18:41+09:00",
+ "generated_at": "2026-10-18T15:49+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -3978,7 +3978,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "steam:3576070",
@@ -3988,7 +3988,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "steam:2357570",
@@ -3998,7 +3998,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4008,7 +4008,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4018,7 +4018,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "steam:570",
@@ -4028,7 +4028,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4038,7 +4038,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4048,7 +4048,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4058,7 +4058,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4068,7 +4068,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "tekken8",
@@ -4078,7 +4078,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "sf6_official",
@@ -4088,7 +4088,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4100,7 +4100,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4110,7 +4110,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4120,7 +4120,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4130,7 +4130,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "lol",
@@ -4140,7 +4140,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   },
   {
    "key": "nikke",
@@ -4150,7 +4150,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-17T18:41+09:00"
+   "last_success": "2026-10-18T15:49+09:00"
   }
  ]
 }
