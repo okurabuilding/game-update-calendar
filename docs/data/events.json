@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T09:56+09:00",
+ "generated_at": "2026-10-22T00:59+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -90,55 +90,6 @@
    "start": "2026-06-17T03:10+09:00",
    "end": "2026-07-08T03:00+09:00",
    "excerpt": "Anima Strike Meta EventAnima Strike is a three-week event that unfolds as you fight your way through the new Tokyo map, where Shion reigns …"
-  },
-  {
-   "id": "lol-26-13",
-   "game": "LOL",
-   "kind": "patch",
-   "title": "リーグ・オブ・レジェンド パッチノート 26.13",
-   "all_day": true,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "Riot 公式パッチスケジュール: パッチ 26.13 は 2026/06/24（太平洋時間）",
-    "LoL の定期パッチは Riot クライアントでのダウンロードが必要",
-    "Riot 公式データ（Data Dragon）でバージョン 16.13 の配信を確認"
-   ],
-   "sources": [
-    {
-     "label": "Riot 公式パッチスケジュール",
-     "url": "https://support.riotgames.com/en-us/league-of-legends/gameplay/patch-schedule-league-of-legends"
-    },
-    {
-     "label": "パッチノート（リーグ・オブ・レジェンド パッチノート 26.13）",
-     "url": "https://www.leagueoflegends.com/ja-jp/news/game-updates/league-of-legends-patch-26-13-notes"
-    }
-   ],
-   "source_key": "lol",
-   "start": "2026-06-24",
-   "note": "日付は Riot 公式の予定日（米国太平洋時間）です。日本サーバーへの配信時刻は公式に告知されません。"
-  },
-  {
-   "id": "ow-patch-2026-06-23",
-   "game": "OW",
-   "kind": "patch",
-   "title": "[オーバーウォッチ] 2026年6月24日配信パッチ内容のおしらせ",
-   "all_day": true,
-   "dl": "likely",
-   "status": "announced",
-   "basis": [
-    "Blizzard 公式パッチノート（2026/06/23 掲載）のタイトルに記載の配信日",
-    "ダウンロードの有無は、配信後に Steam のビルド更新で確定します"
-   ],
-   "sources": [
-    {
-     "label": "Blizzard 公式パッチノート「[オーバーウォッチ] 2026年6月24日配信パッチ内容のおしらせ」",
-     "url": "https://overwatch.blizzard.com/ja-jp/news/patch-notes/live/2026/06/#patch-2026-06-23"
-    }
-   ],
-   "source_key": "blizzard_ow",
-   "start": "2026-06-24",
-   "excerpt": "ホットフィックス(バランス調整)のおしらせ こちらはゲームプレイ関連のホットフィックスを含むアップデートです。6月17日分のパッチ導入後のリプレイ・コードはまだ利用可能です。 NEON JUNCTION ペイロードの速度が若干低下 ペイロード・エリアの確保(アンロック)に要する…"
   },
   {
    "id": "steam-1364780-697642648593235983",
@@ -4139,7 +4090,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4149,7 +4100,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4159,7 +4110,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4169,7 +4120,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4179,7 +4130,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "steam:570",
@@ -4189,7 +4140,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4199,7 +4150,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4209,7 +4160,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4219,7 +4170,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4229,7 +4180,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "tekken8",
@@ -4239,7 +4190,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "sf6_official",
@@ -4249,7 +4200,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4261,7 +4212,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4271,7 +4222,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4281,7 +4232,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4291,7 +4242,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "lol",
@@ -4301,7 +4252,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   },
   {
    "key": "nikke",
@@ -4311,7 +4262,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-21T09:56+09:00"
+   "last_success": "2026-10-22T00:59+09:00"
   }
  ]
 }
