@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:45+09:00",
+ "generated_at": "2026-10-22T15:56+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -90,27 +90,6 @@
    "start": "2026-06-17T03:10+09:00",
    "end": "2026-07-08T03:00+09:00",
    "excerpt": "Anima Strike Meta EventAnima Strike is a three-week event that unfolds as you fight your way through the new Tokyo map, where Shion reigns …"
-  },
-  {
-   "id": "steam-1364780-697642648593235983",
-   "game": "SF6",
-   "kind": "news",
-   "title": "🕷️ジュリのaespaコラボコスチュームの販売は2026年7月4日まで⏰",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「🕷️ジュリのaespaコラボコスチュームの販売は2026年7月4日まで⏰」",
-     "url": "https://store.steampowered.com/news/app/1364780/view/697642648593235983"
-    }
-   ],
-   "source_key": "steam:1364780",
-   "start": "2026-06-24T12:46+09:00",
-   "excerpt": "人気K-popアーティストaespaとのコラボコスチュームである「ジュリ：Outfit 4 feat. aespa(Color1-10)」の配信がもう間もなく終了！2026年7月4日15:59（日本時間）までの販売なので、お見逃しなく👀✨"
   },
   {
    "id": "ow-patch-2026-06-24",
@@ -3877,27 +3856,37 @@
    "excerpt": "親愛なるプロキシ様へ Ver.3.3「もう一度、空へと飛び立って」のアップデート詳細と補償内容は以下となります。 【アップデート開始日時】 2026/10/21 07:00（JST） アップデートの所要時間は約5時間と予想されます。 【補償詳細】 • メンテナンスに伴う補償 補…"
   },
   {
-   "id": "steam-3576070-760703279879423763",
+   "id": "steam-3576070-704408827984874749",
    "game": "SAZP",
-   "kind": "maint",
-   "title": "[Upcoming] 10/22 定期メンテナンスのお知らせ (JST 14:00 - 16:00)",
+   "kind": "patch",
+   "title": "[10/22] パッチノート",
    "all_day": false,
-   "dl": "unknown",
-   "status": "scheduled",
+   "dl": "yes",
+   "status": "confirmed",
    "basis": [
     "Steamのお知らせ（種類: ニュース）",
-    "告知タイトルに記載の日付「10/22 (JST 14:00 - 16:00)」"
+    "関連する告知:「[Completed] 10/22 定期メンテナンスのお知らせ (JST 14:00 - 15:30)」",
+    "告知タイトルに記載の日付「10/22 (JST 14:00 - 15:30)」",
+    "Steam の公開ビルドが更新されました（ビルドID 26109307、2026/10/22 14:06）"
    ],
    "sources": [
     {
-     "label": "Steamのお知らせ「[Upcoming] 10/22 定期メンテナンスのお知らせ (JST 14:…」",
+     "label": "Steamのお知らせ「[10/22] パッチノート」",
+     "url": "https://store.steampowered.com/news/app/3576070/view/704408827984874749"
+    },
+    {
+     "label": "Steamのお知らせ「[Completed] 10/22 定期メンテナンスのお知らせ (JST 14…」",
      "url": "https://store.steampowered.com/news/app/3576070/view/760703279879423763"
+    },
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/3576070/"
     }
    ],
    "source_key": "steam:3576070",
    "start": "2026-10-22T14:00+09:00",
-   "end": "2026-10-22T16:00+09:00",
-   "excerpt": "こんにちは。「サドンアタック：ゼロポイント」です。「サドンアタック：ゼロポイント」では以下の日程にて定期メンテナンスを実施いたします。メンテナンス中はゲームをご利用いただけません。メンテナンス期間10/22(木) 14:00 ～ 16:00 (JST)メンテナンス期間は状況によ…"
+   "end": "2026-10-22T15:30+09:00",
+   "excerpt": "こんにちは。「サドンアタック：ゼロポイント」です。10/22(木)に定期メンテナンスを実施いたしました。メンテナンスにご協力いただき、誠にありがとうございます。本パッチノートでは、今回のメンテナンスでの対応内容についてご案内いたします。アップデートの詳細は以下をご確認ください。…"
   },
   {
    "id": "svwb-01M4SME57MD8A3A2JRV1P074RZ",
@@ -4068,7 +4057,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4078,7 +4067,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4088,7 +4077,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4098,7 +4087,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4108,7 +4097,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "steam:570",
@@ -4118,7 +4107,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4128,7 +4117,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4138,7 +4127,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4148,7 +4137,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4158,7 +4147,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "tekken8",
@@ -4178,7 +4167,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4190,7 +4179,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4200,7 +4189,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4210,7 +4199,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4220,7 +4209,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "lol",
@@ -4230,7 +4219,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   },
   {
    "key": "nikke",
@@ -4240,7 +4229,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-22T12:45+09:00"
+   "last_success": "2026-10-22T15:56+09:00"
   }
  ]
 }
