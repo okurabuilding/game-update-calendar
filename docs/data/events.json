@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T03:51+09:00",
+ "generated_at": "2026-10-23T09:59+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -3805,9 +3805,6 @@
    "status": "confirmed",
    "basis": [
     "Steamのお知らせ（種類: ニュース）",
-    "関連する告知:「Ver.3.3「もう一度、空へと飛び立って」バージョンアップ」",
-    "バージョンアップではゲームクライアントの更新（ダウンロード）が必要",
-    "公式ランチャー（HoYoPlay）の配信バージョン（3.3.0）から、配信済みであることを確認",
     "Steam の公開ビルドが更新されました（ビルドID 25596035、2026/10/21 08:05）"
    ],
    "sources": [
@@ -3816,21 +3813,12 @@
      "url": "https://store.steampowered.com/news/app/4162040/view/652616887841064661"
     },
     {
-     "label": "HoYoLAB「Ver.3.3「もう一度、空へと飛び立って」事前ダウンロード開始&アップデートのお知らせ」",
-     "url": "https://www.hoyolab.com/article/47130875"
-    },
-    {
-     "label": "HoYoLAB「Ver.3.3「もう一度、空へと飛び立って」アップデート詳細」",
-     "url": "https://www.hoyolab.com/article/47149468"
-    },
-    {
      "label": "Steam ストアページ",
      "url": "https://store.steampowered.com/app/4162040/"
     }
    ],
    "source_key": "steam:4162040",
    "start": "2026-10-21T08:05+09:00",
-   "size": "約4.6GB（PC・Ver.3.2から更新・本体＋日本語音声）",
    "excerpt": "親愛なるプロキシ様へ Ver.3.3「もう一度、空へと飛び立って」のアップデート詳細と補償内容は以下となります。 【アップデート開始日時】 2026/10/21 07:00（JST） アップデートの所要時間は約5時間と予想されます。 【補償詳細】 • メンテナンスに伴う補償 補…"
   },
   {
@@ -4055,7 +4043,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4065,7 +4053,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4075,7 +4063,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4085,7 +4073,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4095,7 +4083,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "steam:570",
@@ -4105,7 +4093,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4115,7 +4103,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4125,7 +4113,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4135,7 +4123,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4145,7 +4133,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "tekken8",
@@ -4165,7 +4153,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4177,7 +4165,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4187,7 +4175,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4197,7 +4185,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4207,7 +4195,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "lol",
@@ -4217,7 +4205,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   },
   {
    "key": "nikke",
@@ -4227,7 +4215,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-23T03:51+09:00"
+   "last_success": "2026-10-23T09:59+09:00"
   }
  ]
 }
