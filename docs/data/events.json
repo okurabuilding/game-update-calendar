@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T15:52+09:00",
+ "generated_at": "2026-10-24T18:42+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -1901,6 +1901,35 @@
    "excerpt": "ゲーム・クライアントのアップデート こちらはゲーム・クライアントのアップデートを伴うアップデートです。リプレイ・コードはリセットされています。 不具合の修正 EICHENWALDEに起きていた不具合を修正。マップはライバル・プレイのラインナップに復帰しました ゲンジ用ミシック・…"
   },
   {
+   "id": "tk8-v3.02.01",
+   "game": "T8",
+   "kind": "major",
+   "title": "アップデートデータ Ver.3.02.01",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "鉄拳8 公式のアップデート履歴: V3.02.01（配信 2026/08/20・Steam 版を含む）",
+    "公式に「アップデートデータを配信」と記載（ゲーム本体の更新）",
+    "追加キャラクターに対応するアップデート",
+    "公式告知の適用日時「8/20(木)7:00頃より順次適用」",
+    "メンテナンス日時（公式告知）: 8/20(木)6:30~13:00"
+   ],
+   "sources": [
+    {
+     "label": "鉄拳シリーズ公式ニュース「アップデートデータ Ver.3.02.01」",
+     "url": "https://www.tekken-official.jp/tekken_news/?p=3547"
+    },
+    {
+     "label": "鉄拳8 公式 アップデート履歴",
+     "url": "https://tk8.tekken-official.jp/update/history.php"
+    }
+   ],
+   "source_key": "tekken8",
+   "start": "2026-08-20T07:00+09:00",
+   "excerpt": "以下内容にて『鉄拳8』のアップデートデータを配信いたします。 ■ バージョン Ver.3.02.01 ■ 適用日時 [JST] 8/20(木)7:00頃より順次適用 ■ メンテナンス日時 [JST] 8/20(木)6:30~13:00 備考: ・日時は予告なく変更する場合がござ…"
+  },
+  {
    "id": "steam-1778820-697647721675227603",
    "game": "T8",
    "kind": "news",
@@ -2432,6 +2461,39 @@
    "source_key": "lol",
    "start": "2026-09-10",
    "note": "日付は Riot 公式の予定日（米国太平洋時間）です。日本サーバーへの配信時刻は公式に告知されません。"
+  },
+  {
+   "id": "tk8-v3.02.02",
+   "game": "T8",
+   "kind": "patch",
+   "title": "アップデートデータ Ver.3.02.02",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "鉄拳8 公式のアップデート履歴: V3.02.02（配信 2026/09/10・Steam 版を含む）",
+    "公式に「アップデートデータを配信」と記載（ゲーム本体の更新）",
+    "公式告知の適用日時「9/10(木)11:00頃より順次適用」",
+    "メンテナンス日時（公式告知）: 9/10(木)10:30~13:00",
+    "Steam の公開ビルドが更新されました（ビルドID 25221600、2026/09/10 11:00）"
+   ],
+   "sources": [
+    {
+     "label": "鉄拳シリーズ公式ニュース「アップデートデータ Ver.3.02.02」",
+     "url": "https://www.tekken-official.jp/tekken_news/?p=3639"
+    },
+    {
+     "label": "鉄拳8 公式 アップデート履歴",
+     "url": "https://tk8.tekken-official.jp/update/history.php"
+    },
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/1778820/"
+    }
+   ],
+   "source_key": "tekken8",
+   "start": "2026-09-10T11:00+09:00",
+   "excerpt": "以下内容にて『鉄拳8』のアップデートデータを配信いたします。 ■ バージョン Ver.3.02.02 ■ 適用日時 [JST] 9/10(木)11:00頃より順次適用 ■ メンテナンス日時 [JST] 9/10(木)10:30~13:00 備考: ・日時は予告なく変更する場合が…"
   },
   {
    "id": "steam-3576070-686390624621953158",
@@ -3939,70 +4001,6 @@
    "source_key": "lol",
    "start": "2026-12-09",
    "note": "日付は Riot 公式の予定日（米国太平洋時間）です。日本サーバーへの配信時刻は公式に告知されません。"
-  },
-  {
-   "id": "tk8-v3.02.01",
-   "game": "T8",
-   "kind": "major",
-   "title": "アップデートデータ Ver.3.02.01",
-   "all_day": false,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "鉄拳8 公式のアップデート履歴: V3.02.01（配信 2026/08/20・Steam 版を含む）",
-    "公式に「アップデートデータを配信」と記載（ゲーム本体の更新）",
-    "追加キャラクターに対応するアップデート",
-    "公式告知の適用日時「8/20(木)7:00頃より順次適用」",
-    "メンテナンス日時（公式告知）: 8/20(木)6:30~13:00"
-   ],
-   "sources": [
-    {
-     "label": "鉄拳シリーズ公式ニュース「アップデートデータ Ver.3.02.01」",
-     "url": "https://www.tekken-official.jp/tekken_news/?p=3547"
-    },
-    {
-     "label": "鉄拳8 公式 アップデート履歴",
-     "url": "https://tk8.tekken-official.jp/update/history.php"
-    }
-   ],
-   "source_key": "tekken8",
-   "start": "2026-08-20T07:00+09:00",
-   "excerpt": "以下内容にて『鉄拳8』のアップデートデータを配信いたします。 ■ バージョン Ver.3.02.01 ■ 適用日時 [JST] 8/20(木)7:00頃より順次適用 ■ メンテナンス日時 [JST] 8/20(木)6:30~13:00 備考: ・日時は予告なく変更する場合がござ…",
-   "stale": true
-  },
-  {
-   "id": "tk8-v3.02.02",
-   "game": "T8",
-   "kind": "patch",
-   "title": "アップデートデータ Ver.3.02.02",
-   "all_day": false,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "鉄拳8 公式のアップデート履歴: V3.02.02（配信 2026/09/10・Steam 版を含む）",
-    "公式に「アップデートデータを配信」と記載（ゲーム本体の更新）",
-    "公式告知の適用日時「9/10(木)11:00頃より順次適用」",
-    "メンテナンス日時（公式告知）: 9/10(木)10:30~13:00",
-    "Steam の公開ビルドが更新されました（ビルドID 25221600、2026/09/10 11:00）"
-   ],
-   "sources": [
-    {
-     "label": "鉄拳シリーズ公式ニュース「アップデートデータ Ver.3.02.02」",
-     "url": "https://www.tekken-official.jp/tekken_news/?p=3639"
-    },
-    {
-     "label": "鉄拳8 公式 アップデート履歴",
-     "url": "https://tk8.tekken-official.jp/update/history.php"
-    },
-    {
-     "label": "Steam ストアページ",
-     "url": "https://store.steampowered.com/app/1778820/"
-    }
-   ],
-   "source_key": "tekken8",
-   "start": "2026-09-10T11:00+09:00",
-   "excerpt": "以下内容にて『鉄拳8』のアップデートデータを配信いたします。 ■ バージョン Ver.3.02.02 ■ 適用日時 [JST] 9/10(木)11:00頃より順次適用 ■ メンテナンス日時 [JST] 9/10(木)10:30~13:00 備考: ・日時は予告なく変更する場合が…",
-   "stale": true
   }
  ],
  "sources": [
@@ -4020,7 +4018,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4030,7 +4028,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4040,7 +4038,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4050,7 +4048,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4060,7 +4058,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "steam:570",
@@ -4070,7 +4068,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4080,7 +4078,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4090,7 +4088,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4100,7 +4098,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4110,7 +4108,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "tekken8",
@@ -4118,9 +4116,9 @@
    "games": [
     "T8"
    ],
-   "ok": false,
-   "message": "GET https://tk8.tekken-official.jp/update/history.php に失敗: HTTP Error 503: Service Temporarily Unavailable",
-   "last_success": "2026-10-22T00:59+09:00"
+   "ok": true,
+   "message": "",
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "sf6_official",
@@ -4130,7 +4128,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4142,7 +4140,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4152,7 +4150,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4162,7 +4160,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4172,7 +4170,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "lol",
@@ -4182,7 +4180,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   },
   {
    "key": "nikke",
@@ -4192,7 +4190,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-24T15:52+09:00"
+   "last_success": "2026-10-24T18:42+09:00"
   }
  ]
 }
