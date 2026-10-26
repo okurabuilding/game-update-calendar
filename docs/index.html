@@ -7,10 +7,16 @@
 <meta name="description" content="各ゲームのアップデート・メンテナンス・事前ダウンロードの予定を毎日自動で集めたカレンダー">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23185FA5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='5' width='16' height='16' rx='2'/%3E%3Cpath d='M16 3v4M8 3v4M4 11h16'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css">
-<link rel="stylesheet" href="assets/style.css?v=20261003">
+<link rel="stylesheet" href="assets/style.css?v=20261026">
 </head>
 <body>
 <main id="root">
+  <nav class="tabs" role="tablist" aria-label="表示の切り替え">
+    <button id="tab-btn-cal" role="tab" aria-controls="tab-cal"><i class="ti ti-calendar-month" aria-hidden="true"></i> カレンダー</button>
+    <button id="tab-btn-games" role="tab" aria-controls="tab-games"><i class="ti ti-device-gamepad-2" aria-hidden="true"></i> ゲーム一覧</button>
+  </nav>
+
+  <section id="tab-cal" role="tabpanel" aria-labelledby="tab-btn-cal">
   <header class="top">
     <div class="month">
       <button id="prev" class="icon-btn" aria-label="前の月"><i class="ti ti-chevron-left" aria-hidden="true"></i></button>
@@ -41,9 +47,28 @@
     <span class="sw"><span class="swatch dashed"></span> 事前ダウンロード期間</span>
   </div>
 
-  <div id="chips" class="chips"></div>
+  <div class="chip-row">
+    <div id="chips" class="chips"></div>
+    <div class="bulk" role="group" aria-label="ゲームの一括切り替え">
+      <button class="small-btn js-show-all"><i class="ti ti-eye" aria-hidden="true"></i> すべて表示</button>
+      <button class="small-btn js-hide-all"><i class="ti ti-eye-off" aria-hidden="true"></i> すべて非表示</button>
+    </div>
+  </div>
+  <div id="notice" class="notice" hidden>表示するゲームが選ばれていません。ゲームのボタンか「すべて表示」で選んでください。</div>
   <div id="view" class="view" aria-live="polite"></div>
   <section id="detail" class="detail" aria-live="polite">予定をクリックすると、内容・ダウンロードの有無・判定根拠・公式の情報源が表示されます。</section>
+  </section>
+
+  <section id="tab-games" role="tabpanel" aria-labelledby="tab-btn-games" hidden>
+    <div class="games-head">
+      <p>ゲームごとの次の予定・最新の更新・情報源です。チェックを外したゲームは、カレンダーに表示されません。</p>
+      <div class="bulk" role="group" aria-label="ゲームの一括切り替え">
+        <button class="small-btn js-show-all"><i class="ti ti-eye" aria-hidden="true"></i> すべて表示</button>
+        <button class="small-btn js-hide-all"><i class="ti ti-eye-off" aria-hidden="true"></i> すべて非表示</button>
+      </div>
+    </div>
+    <div id="games" class="games"></div>
+  </section>
 
   <details class="status">
     <summary><i class="ti ti-info-circle" aria-hidden="true"></i> データの取得状況と注意事項</summary>
@@ -57,6 +82,6 @@
   </details>
   <footer id="foot" class="foot"></footer>
 </main>
-<script src="assets/app.js?v=20261003"></script>
+<script src="assets/app.js?v=20261026"></script>
 </body>
 </html>

@@ -260,6 +260,21 @@
   }
 
   // ------------------------------------------------------------ 画面の組み立て
+  // 表示するゲームの設定（カレンダーのボタンとゲーム一覧のチェックで共通）
+  function setHidden(ids) {
+    state.hidden = new Set(ids);
+    store.set("hiddenGames", [...state.hidden]);
+    renderChips();
+    renderGames();
+    render();
+  }
+
+  function toggleGame(id) {
+    const ids = new Set(state.hidden);
+    ids.has(id) ? ids.delete(id) : ids.add(id);
+    setHidden([...ids]);
+  }
+
   function renderChips() {
     const c = $("chips");
     c.innerHTML = "";
@@ -270,14 +285,79 @@
       b.setAttribute("aria-pressed", String(on));
       b.style.cssText = fill(g);
       b.textContent = g.name;
-      b.onclick = () => {
-        on ? state.hidden.add(g.id) : state.hidden.delete(g.id);
-        store.set("hiddenGames", [...state.hidden]);
-        renderChips();
-        render();
-      };
+      b.onclick = () => toggleGame(g.id);
       c.appendChild(b);
     }
+  }
+
+  // ------------------------------------------------------------ ゲーム一覧
+  const startMs = (it) => Date.parse(isDateOnly(it.start) ? it.start + "T00:00:00+09:00" : it.start);
+  const endMs = (it) => (it.end ? Date.parse(isDateOnly(it.end) ? it.end + "T23:59:59+09:00" : it.end) : null);
+  function isUpcoming(it, now) {
+    if (isDateOnly(it.start)) return it.start > state.today;
+    return startMs(it) > now;
+  }
+
+  function itemLine(it) {
+    const st = STATUS[it.status] || ["", ""];
+    const dl = it.dl === "yes" ? ["DL あり", "ok"] : it.dl === "likely" ? ["DL 見込み", "warn"] : it.dl === "no" ? ["DL なし", ""] : ["DL 不明", ""];
+    const ongoing = it.kind === "pre" && !isUpcoming(it, Date.now());
+    const when = ongoing ? `期間中（〜${longDay(dayOf(it.end))}${isDateOnly(it.end) ? "" : " " + timeOf(it.end)}）` : whenText(it);
+    return `<button class="glink" data-jump="${esc(it.id)}"><i class="ti ${KIND[it.kind].icon}" aria-hidden="true"></i> ${esc(when)}<br>${esc(it.title)}</button>` +
+      ` <span class="tag ${st[1]}">${st[0]}</span> <span class="tag ${dl[1]}">${dl[0]}</span>` +
+      (it.size ? `<br><span style="color:var(--text-2)">${esc(it.size)}</span>` : "");
+  }
+
+  function renderGames() {
+    const box = $("games");
+    if (!box) return;
+    const now = Date.now();
+    const sources = state.data.sources || [];
+    box.innerHTML = state.data.games.map((g) => {
+      const on = !state.hidden.has(g.id);
+      const its = state.data.items.filter((i) => i.game === g.id && (isUpdate(i) || i.kind === "pre"));
+      // 次の予定: これからの更新（ダウンロードなしと分かっているものは除く）と、期間中の事前ダウンロード
+      const next = its.filter((i) => i.dl !== "no" && (isUpcoming(i, now) || (i.kind === "pre" && endMs(i) && endMs(i) > now)))
+        .sort((a, b) => startMs(a) - startMs(b))[0];
+      // 最新の更新: すでに配信された、ダウンロードありの更新
+      const latest = its.filter((i) => i.kind !== "pre" && i.dl === "yes" && !isUpcoming(i, now))
+        .sort((a, b) => startMs(b) - startMs(a))[0];
+      const srcs = sources.filter((s) => s.games.includes(g.id)).map((s) =>
+        `<span><span class="tag ${s.ok ? "ok" : "ng"}">${s.ok ? "正常" : "取得失敗"}</span> ${esc(s.label)}</span>`).join("");
+      return `<article class="gcard${on ? "" : " off"}" style="border-left-color:${g.color}">` +
+        `<label class="gtoggle"><input type="checkbox" data-game="${esc(g.id)}"${on ? " checked" : ""}>` +
+        `<span class="gbadge" style="${fill(g)}">${esc(g.name)}</span>${on ? "" : '<span class="tag">非表示中</span>'}</label>` +
+        `<div class="gcard-body"><dl>` +
+        `<dt>次の予定</dt><dd>${next ? itemLine(next) : '<span style="color:var(--text-3)">―（公式の予告はまだありません）</span>'}</dd>` +
+        `<dt>最新の更新</dt><dd>${latest ? itemLine(latest) : '<span style="color:var(--text-3)">―</span>'}</dd>` +
+        `<dt>情報源</dt><dd class="gsrc">${srcs || "―"}</dd>` +
+        `</dl></div></article>`;
+    }).join("");
+  }
+
+  // ゲーム一覧の予定を押したら、カレンダーのその月を開いて詳細を表示する
+  function jumpTo(id) {
+    const it = state.data.items.find((i) => i.id === id);
+    if (!it) return;
+    if (state.hidden.has(it.game)) toggleGame(it.game);
+    if (state.dlOnly && !visible(it)) { state.dlOnly = false; store.set("dlOnly", false); }
+    const [y, m] = dayOf(it.start).split("-").map(Number);
+    state.month = { y, m };
+    setTab("cal");
+    const el = $("view").querySelector(`[data-id="${CSS.escape(id)}"]`);
+    showDetail(id, el);  // カレンダー表示では下の詳細欄へ、一覧表示ではその予定の下に開く
+    if (el && state.view === "list") el.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  // ------------------------------------------------------------ タブ
+  function setTab(tab) {
+    state.tab = tab;
+    $("tab-cal").hidden = tab !== "cal";
+    $("tab-games").hidden = tab !== "games";
+    $("tab-btn-cal").setAttribute("aria-selected", String(tab === "cal"));
+    $("tab-btn-games").setAttribute("aria-selected", String(tab === "games"));
+    try { history.replaceState(null, "", tab === "games" ? "#games" : location.pathname + location.search); } catch (e) { /* 表示は続ける */ }
+    if (tab === "cal") render();
   }
 
   function renderSources() {
@@ -298,9 +378,10 @@
     $("v-list").setAttribute("aria-pressed", String(state.view === "list"));
     $("f-dl").setAttribute("aria-pressed", String(state.dlOnly));
     $("f-all").setAttribute("aria-pressed", String(!state.dlOnly));
+    $("notice").hidden = state.data.games.some((g) => !state.hidden.has(g.id));
     $("view").innerHTML = state.view === "cal" ? calendarHTML() : listHTML();
     $("detail").hidden = state.view !== "cal";  // 一覧では各予定の下に詳細を開くため、下部の欄は使わない
-    if (state.view === "cal") fitText();
+    if (state.view === "cal" && state.tab !== "games") fitText();
   }
 
   function shiftMonth(n) {
@@ -324,6 +405,18 @@
       if (e.target.closest(".inline-detail")) return;  // 詳細内のリンクはそのまま開く
       const el = e.target.closest("[data-id]");
       if (el) showDetail(el.getAttribute("data-id"), el);
+    });
+    $("tab-btn-cal").onclick = () => setTab("cal");
+    $("tab-btn-games").onclick = () => setTab("games");
+    for (const b of document.querySelectorAll(".js-show-all")) b.onclick = () => setHidden([]);
+    for (const b of document.querySelectorAll(".js-hide-all")) b.onclick = () => setHidden(state.data.games.map((g) => g.id));
+    $("games").addEventListener("change", (e) => {
+      const id = e.target.getAttribute && e.target.getAttribute("data-game");
+      if (id) toggleGame(id);
+    });
+    $("games").addEventListener("click", (e) => {
+      const el = e.target.closest("[data-jump]");
+      if (el) jumpTo(el.getAttribute("data-jump"));
     });
     // 画面幅でカレンダーと一覧を自動で切り替える（ボタンで手動切り替えも可能）
     let lastWidth = 0;
@@ -354,13 +447,18 @@
       return;
     }
     for (const g of state.data.games) state.games[g.id] = g;
+    // 設定に残っている、今は存在しないゲームの非表示指定は外す
+    state.hidden = new Set([...state.hidden].filter((id) => state.games[id]));
     renderChips();
+    renderGames();
     renderSources();
     const gen = (state.data.generated_at || "").replace("T", " ").slice(0, 16);
     const failed = (state.data.sources || []).filter((s) => !s.ok).length;
     $("foot").innerHTML = `最終更新 ${esc(gen)}（日本時間）・ 予定 ${state.data.items.length} 件` +
       (failed ? ` ・ <span class="stale-note"><i class="ti ti-alert-triangle" aria-hidden="true"></i> 取得に失敗した情報源が ${failed} 件あります（詳細は上の取得状況）</span>` : "");
+    state.tab = location.hash === "#games" ? "games" : "cal";
     setup();
+    setTab(state.tab);
   }
 
   main();
