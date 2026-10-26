@@ -11,6 +11,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from pathlib import Path
 
+from . import install_size
 from .common import FetchError, from_ts, log, now_jst, parse_iso, to_iso
 from .linking import build_items as steam_build_items
 from .linking import cluster, link
@@ -55,8 +56,9 @@ def run(root: Path, steamcmd: str | None = None, now: datetime | None = None) ->
     appids = [g["steam"]["appid"] for g in steam_games]
     sstate = state.setdefault("steam", {})
     build_res = SourceResult("steambuild", "Steam ビルド更新", [g["id"] for g in steam_games])
+    steam_sizes: dict[int, int] = {}
     if appids:
-        builds, origin, warnings = steam_builds.get_build_info(appids, steamcmd)
+        builds, origin, warnings, steam_sizes = steam_builds.get_build_info(appids, steamcmd)
         for appid, b in builds.items():
             st = sstate.setdefault(str(appid), {"history": []})
             hist = st["history"]
@@ -225,6 +227,9 @@ def run(root: Path, steamcmd: str | None = None, now: datetime | None = None) ->
     for g in games:
         cluster([i for i in all_items if i.game == g["id"]])
 
+    # ---------------------------------------------------------------- インストール容量
+    sizes = install_size.collect(games, steam_sizes, branches, state.setdefault("install_size", {}), now)
+
     # ---------------------------------------------------------------- 出力
     final = [i for i in all_items if not i.merged and (i.end or i.start) >= since and i.start <= until]
     final.sort(key=lambda i: (i.start, i.game))
@@ -241,7 +246,8 @@ def run(root: Path, steamcmd: str | None = None, now: datetime | None = None) ->
     data = {
         "generated_at": to_iso(now),
         "games": [{"id": g["id"], "name": g["name"], "official": g.get("official", g["name"]),
-                   "color": g["color"], "text_color": g["text_color"]}
+                   "color": g["color"], "text_color": g["text_color"],
+                   **({"install": sizes[g["id"]]} if g["id"] in sizes else {})}
                   for g in games],
         "items": [i.to_json() for i in final] + carried,
         "sources": sources_out,

@@ -22,6 +22,7 @@ from ..textparse import excerpt, find_datetimes, html_to_text, norm
 LAUNCHER_ID = "VYTpXlbWo8"  # HoYoPlay（グローバル版）
 BRANCHES_URL = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameBranches"
 PATCH_BUILD_URL = "https://sg-downloader-api.hoyoverse.com/downloader/sophon_chunk/api/getPatchBuild"
+BUILD_URL = "https://sg-downloader-api.hoyoverse.com/downloader/sophon_chunk/api/getBuild"
 NEWS_URL = "https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList"
 POST_URL = "https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull"
 HL_HEADERS = {"x-rpc-language": "ja-jp", "Referer": "https://www.hoyolab.com/", "Origin": "https://www.hoyolab.com"}
@@ -114,6 +115,25 @@ def patch_sizes(branch: dict, from_tag: str) -> dict[str, int]:
         stat = ((mf.get("stats") or {}).get(from_tag)) or {}
         if "compressed_size" in stat:
             sizes[mf.get("matching_field", "")] = int(stat["compressed_size"])
+    return sizes
+
+
+def install_sizes(main: dict) -> dict[str, int]:
+    """配信中のバージョンを新しくインストールしたときの容量（展開後のバイト数）。
+
+    戻り値の例: {"game": 本体, "ja-jp": 日本語音声, "en-us": 英語音声, ...}
+    """
+    params = {k: main[k] for k in ("branch", "package_id", "password", "tag") if k in main}
+    d = request_json(BUILD_URL, params=params)
+    if d.get("retcode") != 0:
+        raise FetchError(f"HoYoverse のインストール容量の取得に失敗: {d.get('message')}")
+    sizes: dict[str, int] = {}
+    for mf in (d.get("data") or {}).get("manifests") or []:
+        stat = mf.get("stats") or {}
+        if "uncompressed_size" in stat:
+            sizes[mf.get("matching_field", "")] = int(stat["uncompressed_size"])
+    if not sizes.get("game"):
+        raise FetchError("HoYoverse のインストール容量に本体のデータがありません")
     return sizes
 
 

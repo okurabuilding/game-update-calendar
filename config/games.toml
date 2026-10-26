@@ -16,6 +16,16 @@
 #   [games.sf6_official] enabled   … SF6 公式サイトのアップデート・メンテナンス（SF6 用）
 #   [games.lol]       enabled     … LoL 用（公式パッチスケジュール・パッチノート）
 #   [games.nikke]     enabled     … NIKKE 用（公式サイトのお知らせ）
+#
+# インストール容量（ゲーム一覧に表示。今の版を Windows に日本語で新しく入れたときの大きさ）
+#   [games.install]   from        … 測り方
+#                       "steam"            Steam の配信データから計算
+#                       "hoyoplay"         HoYoPlay の配信データ（本体＋日本語音声）
+#                       "steam+hoyo_voice" Steam 版の本体＋HoYoPlay の日本語音声
+#                       "riot"             Riot の配信データから計算（LoL 用）
+#                       "official"         配信データから測れないため、公式の必要容量を表示
+#                     official_gb … from = "official" のときの公式の値（GB）
+#                     note        … 画面に添える注記（省略可）
 
 [[games]]
 id = "SAZP"
@@ -25,6 +35,8 @@ color = "#5F5E5A"
 text_color = "#FFFFFF"
 [games.steam]
 appid = 3576070
+[games.install]
+from = "steam"
 
 [[games]]
 id = "OW"
@@ -37,6 +49,8 @@ appid = 2357570
 # Steam に載らないパッチノートとシーズン開幕の予告を、Blizzard 公式サイト（日本語）から補います
 [games.blizzard_overwatch]
 enabled = true
+[games.install]
+from = "steam"
 
 [[games]]
 id = "T8"
@@ -49,6 +63,8 @@ appid = 1778820
 # アップデートの告知は Steam に載らないため、公式のアップデート履歴と公式ニュースから補います
 [games.tekken8]
 enabled = true
+[games.install]
+from = "steam"
 
 [[games]]
 id = "SF6"
@@ -61,6 +77,8 @@ appid = 1364780
 # メンテナンス・アップデートの告知は Steam に載らないため、公式サイト（Buckler's Boot Camp）から補います
 [games.sf6_official]
 enabled = true
+[games.install]
+from = "steam"
 
 [[games]]
 id = "DOTA"
@@ -70,6 +88,8 @@ color = "#712B13"
 text_color = "#FFFFFF"
 [games.steam]
 appid = 570
+[games.install]
+from = "steam"
 
 [[games]]
 id = "LOL"
@@ -79,6 +99,8 @@ color = "#0F6E56"
 text_color = "#FFFFFF"
 [games.lol]
 enabled = true
+[games.install]
+from = "riot"
 
 [[games]]
 id = "SVWB"
@@ -93,6 +115,10 @@ downloads_outside_steam = true
 # メンテナンスやアップデートの告知は Steam に載らないため、公式サイト（日本語）のお知らせを使います
 [games.shadowverse_wb]
 enabled = true
+[games.install]
+from = "official"
+official_gb = 30
+note = "追加データがゲーム内でダウンロードされ配信データから測れないため、Steam ストアに載っている必要容量を表示しています。実際はこれより大きい可能性があります"
 
 [[games]]
 id = "GI"
@@ -103,6 +129,8 @@ text_color = "#FFFFFF"
 [games.hoyoverse]
 launcher_id = "gopR6Cufr3"
 hoyolab_gid = 2
+[games.install]
+from = "hoyoplay"
 
 [[games]]
 id = "HSR"
@@ -113,6 +141,8 @@ text_color = "#042C53"
 [games.hoyoverse]
 launcher_id = "4ziysqXOQ8"
 hoyolab_gid = 6
+[games.install]
+from = "hoyoplay"
 
 [[games]]
 id = "ZZZ"
@@ -127,6 +157,9 @@ appid = 4162040
 launcher_id = "U5hbdsT9W7"
 hoyolab_gid = 8
 supplement_only = true
+[games.install]
+from = "steam+hoyo_voice"
+note = "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
 
 [[games]]
 id = "NIKKE"
@@ -136,3 +169,7 @@ color = "#993556"
 text_color = "#FFFFFF"
 [games.nikke]
 enabled = true
+[games.install]
+from = "official"
+official_gb = 20
+note = "配信データから測れないため、2023年のPC版発売時に公式が示した推奨容量を表示しています。実際はこれより大きい可能性があります"

@@ -356,9 +356,41 @@
       (it.size ? `<span class="gsize">${esc(it.size)}</span>` : "") + "</span>";
   }
 
+  // インストール容量の表記。主は Windows のエクスプローラーと同じ 1GB＝1024³ バイト、ストアや SSD の表記（1GB＝10⁹ バイト）を併記
+  const winGB = (b) => `約${(b / 1024 ** 3).toFixed(1)}GB`;
+  const storeGB = (b) => `約${(b / 1e9).toFixed(1)}GB`;
+  const shortTime = (iso) => `${+iso.slice(5, 7)}/${+iso.slice(8, 10)} ${iso.slice(11, 16)}`;
+
+  function capacityHTML(ins) {
+    const parts = ins.parts ? `<span class="gsize">（${ins.parts.map((p) => `${esc(p[0])} ${winGB(p[1])}`).join("＋")}）</span>` : "";
+    const meta = [ins.version, ins.basis, ins.checked_at ? `${shortTime(ins.checked_at)} 時点` : ""].filter(Boolean).map(esc).join("・");
+    return (ins.official ? '<span class="tag warn">公式の値</span> ' : "") +
+      `<b class="gcap">${winGB(ins.bytes)}</b>${parts}` +
+      (ins.stale ? ' <span class="tag ng">取得失敗・前回の値</span>' : "") +
+      `<div class="gnote">ストア・SSDの表記では${storeGB(ins.bytes)}<br>${meta}${ins.note ? "<br>" + esc(ins.note) : ""}</div>`;
+  }
+
+  // ゲーム一覧の上に出す、インストール容量の合計
+  function renderTotal() {
+    const box = $("games-total");
+    const sized = state.data.games.filter((g) => g.install);
+    box.hidden = !sized.length;
+    if (!sized.length) return;
+    const sum = (list) => list.reduce((a, g) => a + g.install.bytes, 0);
+    const all = sized.length === state.data.games.length ? `全${sized.length}本` : `容量が分かる${sized.length}本`;
+    const on = sized.filter((g) => !state.hidden.has(g.id));
+    const official = sized.filter((g) => g.install.official).map((g) => esc(g.name));
+    box.innerHTML = `<i class="ti ti-database" aria-hidden="true"></i> ${all}をインストールした場合の合計：<b>${winGB(sum(sized))}</b>（ストア・SSDの表記では${storeGB(sum(sized))}）` +
+      (on.length && on.length < sized.length ? `<br>チェック中の${on.length}本の合計：<b>${winGB(sum(on))}</b>（ストア・SSDの表記では${storeGB(sum(on))}）` : "") +
+      `<span class="gnote">容量は Windows のエクスプローラーでの表示です。今の版を日本語で新しくインストールしたときの大きさで、ランチャーアプリ本体と、更新のときに一時的に必要な空きは含みません。` +
+      (official.length ? `${official.join("・")}は配信データから測れないため、公式の必要容量で計算しています（実際はこれより大きい可能性があります）。` : "") +
+      "</span>";
+  }
+
   function renderGames() {
     const box = $("games");
     if (!box) return;
+    renderTotal();
     const now = Date.now();
     const sources = state.data.sources || [];
     box.innerHTML = state.data.games.map((g) => {
@@ -386,6 +418,7 @@
         `<div class="gcard-body"><dl>` +
         `<dt>次の予定</dt><dd>${next ? itemLine(next, true) : '<span style="color:var(--text-3)">―（公式の予告はまだありません）</span>'}</dd>` +
         `<dt>最新の更新</dt><dd>${latest ? itemLine(latest, false) : '<span style="color:var(--text-3)">―</span>'}</dd>` +
+        (g.install ? `<dt>容量</dt><dd>${capacityHTML(g.install)}</dd>` : "") +
         `<dt>情報源</dt><dd>${srcs || "―"}</dd>` +
         `</dl></div></article>`;
     }).join("");

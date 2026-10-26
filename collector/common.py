@@ -29,7 +29,16 @@ class FetchError(Exception):
     """取得や検証に失敗したことを表す。呼び出し側はこの情報源を「失敗」として扱う。"""
 
 
-def request_text(
+def request_text(url: str, **kwargs) -> str:
+    raw, charset = _request(url, **kwargs)
+    return raw.decode(charset or "utf-8", errors="replace")
+
+
+def request_bytes(url: str, **kwargs) -> bytes:
+    return _request(url, **kwargs)[0]
+
+
+def _request(
     url: str,
     *,
     method: str = "GET",
@@ -38,7 +47,7 @@ def request_text(
     body: dict | str | None = None,
     timeout: int = 30,
     retries: int = 3,
-) -> str:
+) -> tuple[bytes, str | None]:
     if params:
         url += ("&" if "?" in url else "?") + urllib.parse.urlencode(params)
     hdrs = {"User-Agent": USER_AGENT, "Accept-Encoding": "gzip"}
@@ -55,7 +64,7 @@ def request_text(
                 raw = res.read()
                 if res.headers.get("Content-Encoding") == "gzip":
                     raw = gzip.decompress(raw)
-                return raw.decode(res.headers.get_content_charset() or "utf-8", errors="replace")
+                return raw, res.headers.get_content_charset()
         except urllib.error.HTTPError as e:
             last_error = e
             if 400 <= e.code < 500 and e.code != 429:
