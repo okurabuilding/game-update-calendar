@@ -1,7 +1,8 @@
 # 対象ゲームの一覧です。上から順に、画面のボタンに並びます。
 #
 #   id         : 内部で使う識別子（英数字）
-#   name       : 画面に表示する名前
+#   name       : 画面に表示する名前（カレンダー・ボタン用の短い名前）
+#   official   : 正式名称（ゲーム一覧に表示）
 #   color      : カレンダーの塗りつぶし色
 #   text_color : 塗りつぶしの上に載せる文字色
 #
@@ -19,6 +20,7 @@
 [[games]]
 id = "SAZP"
 name = "Sudden Attack ZP"
+official = "Sudden Attack Zero Point（サドンアタック：ゼロポイント）"
 color = "#5F5E5A"
 text_color = "#FFFFFF"
 [games.steam]
@@ -27,6 +29,7 @@ appid = 3576070
 [[games]]
 id = "OW"
 name = "OVERWATCH"
+official = "Overwatch（オーバーウォッチ）"
 color = "#EF9F27"
 text_color = "#412402"
 [games.steam]
@@ -38,6 +41,7 @@ enabled = true
 [[games]]
 id = "T8"
 name = "鉄拳8"
+official = "鉄拳8（TEKKEN 8）"
 color = "#A32D2D"
 text_color = "#FFFFFF"
 [games.steam]
@@ -49,6 +53,7 @@ enabled = true
 [[games]]
 id = "SF6"
 name = "SF6"
+official = "ストリートファイター6（Street Fighter 6）"
 color = "#185FA5"
 text_color = "#FFFFFF"
 [games.steam]
@@ -60,6 +65,7 @@ enabled = true
 [[games]]
 id = "DOTA"
 name = "Dota 2"
+official = "Dota 2"
 color = "#712B13"
 text_color = "#FFFFFF"
 [games.steam]
@@ -68,6 +74,7 @@ appid = 570
 [[games]]
 id = "LOL"
 name = "LoL"
+official = "リーグ・オブ・レジェンド（League of Legends）"
 color = "#0F6E56"
 text_color = "#FFFFFF"
 [games.lol]
@@ -76,6 +83,7 @@ enabled = true
 [[games]]
 id = "SVWB"
 name = "Shadowverse WB"
+official = "Shadowverse: Worlds Beyond（シャドウバース ワールズビヨンド）"
 color = "#534AB7"
 text_color = "#FFFFFF"
 [games.steam]
@@ -89,6 +97,7 @@ enabled = true
 [[games]]
 id = "GI"
 name = "原神"
+official = "原神（Genshin Impact）"
 color = "#3B6D11"
 text_color = "#FFFFFF"
 [games.hoyoverse]
@@ -98,6 +107,7 @@ hoyolab_gid = 2
 [[games]]
 id = "HSR"
 name = "スターレイル"
+official = "崩壊：スターレイル（Honkai: Star Rail）"
 color = "#85B7EB"
 text_color = "#042C53"
 [games.hoyoverse]
@@ -107,6 +117,7 @@ hoyolab_gid = 6
 [[games]]
 id = "ZZZ"
 name = "ゼンゼロ"
+official = "ゼンレスゾーンゼロ（Zenless Zone Zero）"
 color = "#97C459"
 text_color = "#173404"
 # ゼンゼロは Steam を主に使い、Steam に載らない事前告知（メンテナンス日時・事前DL）だけ HoYoverse で補います
@@ -120,6 +131,7 @@ supplement_only = true
 [[games]]
 id = "NIKKE"
 name = "NIKKE"
+official = "勝利の女神：NIKKE（GODDESS OF VICTORY: NIKKE）"
 color = "#993556"
 text_color = "#FFFFFF"
 [games.nikke]

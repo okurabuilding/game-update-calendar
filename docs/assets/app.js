@@ -77,6 +77,7 @@
     dlOnly: store.get("dlOnly", true),
     view: null,
     auto: null,
+    showPast: false,
     month: null,
     today: null,
   };
@@ -189,7 +190,23 @@
     if (!rows.length) return '<div class="empty">この月に該当する予定はありません</div>';
     rows.sort((a, b) => a.d.localeCompare(b.d) || byOrder(a.it, b.it));
     let h = "", cur = "";
-    for (const { d, it } of rows) {
+    // 今月を開いたときは今日以降から並べ、過去の分はボタンで開く（スマホで今日まで長くスクロールしなくて済むように）
+    const isThisMonth = state.today >= first && state.today <= last;
+    const past = isThisMonth ? rows.filter((r) => r.d < state.today) : [];
+    let shown = rows;
+    if (past.length) {
+      const days = new Set(past.map((r) => r.d)).size;
+      const range = `${+first.slice(5, 7)}/${+first.slice(8)}〜${+past[past.length - 1].d.slice(5, 7)}/${+past[past.length - 1].d.slice(8)}`;
+      h += `<button class="past-toggle" data-past="toggle"><i class="ti ti-history" aria-hidden="true"></i> ` +
+        (state.showPast ? `過去の予定を隠す（${range}）` : `過去の予定を表示（${range}・${days}日分 ${past.length}件）`) + "</button>";
+      if (!state.showPast) {
+        shown = rows.filter((r) => r.d >= state.today);
+        if (!shown.length) {
+          h += `<div class="empty">今月の今日以降の予定は、まだありません。<br><button class="small-btn" data-next-month="1">${m === 12 ? 1 : m + 1}月の予定を見る <i class="ti ti-chevron-right" aria-hidden="true"></i></button></div>`;
+        }
+      }
+    }
+    for (const { d, it } of shown) {
       if (d !== cur) {
         cur = d;
         h += `<div class="day-head ${d === state.today ? "today" : ""}">${longDay(d)}${d === state.today ? "　今日" : ""}</div>`;
@@ -217,7 +234,6 @@
   function showDetail(id, anchor) {
     const it = state.data.items.find((i) => i.id === id);
     if (!it) return;
-    $("detail").innerHTML = detailHTML(it);
     if (state.view === "list" && anchor) {
       // 一覧では、押した予定のすぐ下に詳細を開く（もう一度押すと閉じる）
       const open = $("view").querySelector(".inline-detail");
@@ -230,8 +246,26 @@
         anchor.after(box);
       }
     } else {
-      $("detail").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      // カレンダーでは、押した予定に目印を付けて、詳細を画面中央の小窓で開く
+      clearSelected();
+      if (anchor) anchor.classList.add("selected");
+      $("dlg-body").innerHTML = detailHTML(it);
+      const h2 = $("dlg-body").querySelector("h2");
+      if (h2) h2.id = "dlg-title";
+      const dlg = $("dlg");
+      if (typeof dlg.showModal === "function") { if (!dlg.open) dlg.showModal(); } else dlg.setAttribute("open", "");
+      $("dlg-body").scrollTop = 0;
     }
+  }
+
+  function clearSelected() {
+    for (const el of $("view").querySelectorAll(".selected")) el.classList.remove("selected");
+  }
+
+  function closeDetail() {
+    const dlg = $("dlg");
+    if (dlg.open) (typeof dlg.close === "function" ? dlg.close() : dlg.removeAttribute("open"));
+    clearSelected();  // 閉じたときの通知が届かないブラウザもあるため、ここで目印を消す
   }
 
   function detailHTML(it) {
@@ -278,6 +312,8 @@
   function renderChips() {
     const c = $("chips");
     c.innerHTML = "";
+    const shownCount = state.data.games.filter((g) => !state.hidden.has(g.id)).length;
+    $("filters-count").textContent = `（表示中 ${shownCount}/${state.data.games.length}）`;
     for (const g of state.data.games) {
       const b = document.createElement("button");
       const on = !state.hidden.has(g.id);
@@ -285,6 +321,7 @@
       b.setAttribute("aria-pressed", String(on));
       b.style.cssText = fill(g);
       b.textContent = g.name;
+      if (g.official) b.title = g.official;  // ボタンにマウスを乗せると正式名称を表示
       b.onclick = () => toggleGame(g.id);
       c.appendChild(b);
     }
@@ -298,14 +335,25 @@
     return startMs(it) > now;
   }
 
-  function itemLine(it) {
+  // 今日から見た日数（「あと9日」など）
+  function daysFromToday(key) {
+    const toUTC = (k) => { const [y, m, d] = k.split("-").map(Number); return Date.UTC(y, m - 1, d); };
+    return Math.round((toUTC(key) - toUTC(state.today)) / 86400000);
+  }
+
+  function itemLine(it, upcoming) {
     const st = STATUS[it.status] || ["", ""];
     const dl = it.dl === "yes" ? ["DL あり", "ok"] : it.dl === "likely" ? ["DL 見込み", "warn"] : it.dl === "no" ? ["DL なし", ""] : ["DL 不明", ""];
     const ongoing = it.kind === "pre" && !isUpcoming(it, Date.now());
     const when = ongoing ? `期間中（〜${longDay(dayOf(it.end))}${isDateOnly(it.end) ? "" : " " + timeOf(it.end)}）` : whenText(it);
+    let left = "";
+    if (upcoming && !ongoing) {
+      const n = daysFromToday(dayOf(it.start));
+      left = n <= 0 ? "今日" : n === 1 ? "明日" : `あと${n}日`;
+    }
     return `<button class="glink" data-jump="${esc(it.id)}"><i class="ti ${KIND[it.kind].icon}" aria-hidden="true"></i> ${esc(when)}<br>${esc(it.title)}</button>` +
-      ` <span class="tag ${st[1]}">${st[0]}</span> <span class="tag ${dl[1]}">${dl[0]}</span>` +
-      (it.size ? `<br><span style="color:var(--text-2)">${esc(it.size)}</span>` : "");
+      `<span class="gtags">${left ? `<span class="tag accent">${left}</span>` : ""}<span class="tag ${st[1]}">${st[0]}</span><span class="tag ${dl[1]}">${dl[0]}</span>` +
+      (it.size ? `<span class="gsize">${esc(it.size)}</span>` : "") + "</span>";
   }
 
   function renderGames() {
@@ -322,15 +370,23 @@
       // 最新の更新: すでに配信された、ダウンロードありの更新
       const latest = its.filter((i) => i.kind !== "pre" && i.dl === "yes" && !isUpcoming(i, now))
         .sort((a, b) => startMs(b) - startMs(a))[0];
-      const srcs = sources.filter((s) => s.games.includes(g.id)).map((s) =>
+      const mine = sources.filter((s) => s.games.includes(g.id));
+      const ng = mine.filter((s) => !s.ok).length;
+      const list = mine.map((s) =>
         `<span><span class="tag ${s.ok ? "ok" : "ng"}">${s.ok ? "正常" : "取得失敗"}</span> ${esc(s.label)}</span>`).join("");
+      // 情報源はふだん 1 行にまとめ、押すと内訳を開く（取得失敗があるときは最初から開く）
+      const srcs = mine.length ? `<details class="gsrc-d"${ng ? " open" : ""}><summary>` +
+        (ng ? `<span class="tag ng">取得失敗あり</span> ${ng}/${mine.length}件` : `<span class="tag ok">すべて正常</span> ${mine.length}件`) +
+        `</summary><div class="gsrc">${list}</div></details>` : "";
       return `<article class="gcard${on ? "" : " off"}" style="border-left-color:${g.color}">` +
         `<label class="gtoggle"><input type="checkbox" data-game="${esc(g.id)}"${on ? " checked" : ""}>` +
-        `<span class="gbadge" style="${fill(g)}">${esc(g.name)}</span>${on ? "" : '<span class="tag">非表示中</span>'}</label>` +
+        `<span class="gbadge" style="${fill(g)}">${esc(g.name)}</span>` +
+        (g.official && g.official !== g.name ? `<span class="gofficial">${esc(g.official)}</span>` : "") +
+        `${on ? "" : '<span class="tag">非表示中</span>'}</label>` +
         `<div class="gcard-body"><dl>` +
-        `<dt>次の予定</dt><dd>${next ? itemLine(next) : '<span style="color:var(--text-3)">―（公式の予告はまだありません）</span>'}</dd>` +
-        `<dt>最新の更新</dt><dd>${latest ? itemLine(latest) : '<span style="color:var(--text-3)">―</span>'}</dd>` +
-        `<dt>情報源</dt><dd class="gsrc">${srcs || "―"}</dd>` +
+        `<dt>次の予定</dt><dd>${next ? itemLine(next, true) : '<span style="color:var(--text-3)">―（公式の予告はまだありません）</span>'}</dd>` +
+        `<dt>最新の更新</dt><dd>${latest ? itemLine(latest, false) : '<span style="color:var(--text-3)">―</span>'}</dd>` +
+        `<dt>情報源</dt><dd>${srcs || "―"}</dd>` +
         `</dl></div></article>`;
     }).join("");
   }
@@ -343,9 +399,10 @@
     if (state.dlOnly && !visible(it)) { state.dlOnly = false; store.set("dlOnly", false); }
     const [y, m] = dayOf(it.start).split("-").map(Number);
     state.month = { y, m };
+    if (dayOf(it.start) < state.today) state.showPast = true;  // 一覧で折りたたまれている過去の予定も開く
     setTab("cal");
     const el = $("view").querySelector(`[data-id="${CSS.escape(id)}"]`);
-    showDetail(id, el);  // カレンダー表示では下の詳細欄へ、一覧表示ではその予定の下に開く
+    showDetail(id, el);  // カレンダー表示では小窓で、一覧表示ではその予定の下に開く
     if (el && state.view === "list") el.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
@@ -380,7 +437,7 @@
     $("f-all").setAttribute("aria-pressed", String(!state.dlOnly));
     $("notice").hidden = state.data.games.some((g) => !state.hidden.has(g.id));
     $("view").innerHTML = state.view === "cal" ? calendarHTML() : listHTML();
-    $("detail").hidden = state.view !== "cal";  // 一覧では各予定の下に詳細を開くため、下部の欄は使わない
+    $("hint").hidden = false;
     if (state.view === "cal" && state.tab !== "games") fitText();
   }
 
@@ -390,22 +447,31 @@
     if (m < 1) { m = 12; y--; }
     if (m > 12) { m = 1; y++; }
     state.month = { y, m };
+    state.showPast = false;
     render();
   }
 
   function setup() {
     $("prev").onclick = () => shiftMonth(-1);
     $("next").onclick = () => shiftMonth(1);
-    $("today").onclick = () => { const t = jst(new Date()); state.month = { y: t.y, m: t.m }; render(); };
+    $("today").onclick = () => { const t = jst(new Date()); state.month = { y: t.y, m: t.m }; state.showPast = false; render(); };
     $("v-cal").onclick = () => { state.view = "cal"; render(); };
     $("v-list").onclick = () => { state.view = "list"; render(); };
     $("f-dl").onclick = () => { state.dlOnly = true; store.set("dlOnly", true); render(); };
     $("f-all").onclick = () => { state.dlOnly = false; store.set("dlOnly", false); render(); };
     $("view").addEventListener("click", (e) => {
       if (e.target.closest(".inline-detail")) return;  // 詳細内のリンクはそのまま開く
+      if (e.target.closest("[data-past]")) { state.showPast = !state.showPast; render(); return; }
+      if (e.target.closest("[data-next-month]")) { shiftMonth(1); return; }
       const el = e.target.closest("[data-id]");
       if (el) showDetail(el.getAttribute("data-id"), el);
     });
+    const dlg = $("dlg");
+    $("dlg-close").onclick = closeDetail;
+    dlg.addEventListener("click", (e) => { if (e.target === dlg) closeDetail(); });  // 小窓の外側を押したら閉じる
+    dlg.addEventListener("close", clearSelected);
+    dlg.addEventListener("cancel", (e) => { e.preventDefault(); closeDetail(); });  // Esc キー
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && dlg.open) closeDetail(); });
     $("tab-btn-cal").onclick = () => setTab("cal");
     $("tab-btn-games").onclick = () => setTab("games");
     for (const b of document.querySelectorAll(".js-show-all")) b.onclick = () => setHidden([]);
@@ -423,7 +489,7 @@
     const fit = () => {
       const w = $("root").clientWidth;
       const a = w < NARROW ? "list" : "cal";
-      if (a !== state.auto) { state.auto = a; state.view = a; render(); }
+      if (a !== state.auto) { state.auto = a; state.view = a; $("filters").open = a === "cal"; render(); }
       else if (Math.abs(w - lastWidth) > 4 && state.view === "cal") fitText();
       lastWidth = w;
     };
@@ -454,6 +520,10 @@
     renderSources();
     const gen = (state.data.generated_at || "").replace("T", " ").slice(0, 16);
     const failed = (state.data.sources || []).filter((s) => !s.ok).length;
+    // 最終更新はタブの横にも出す（データの新しさがすぐ分かるように）
+    const short = gen.length >= 16 ? `${+gen.slice(5, 7)}/${+gen.slice(8, 10)} ${gen.slice(11, 16)}` : gen;
+    $("updated").innerHTML = `最終更新 ${esc(short)}` +
+      (failed ? ` <span class="stale-note" title="取得に失敗した情報源があります"><i class="ti ti-alert-triangle" aria-hidden="true"></i> 一部取得失敗</span>` : "");
     $("foot").innerHTML = `最終更新 ${esc(gen)}（日本時間）・ 予定 ${state.data.items.length} 件` +
       (failed ? ` ・ <span class="stale-note"><i class="ti ti-alert-triangle" aria-hidden="true"></i> 取得に失敗した情報源が ${failed} 件あります（詳細は上の取得状況）</span>` : "");
     state.tab = location.hash === "#games" ? "games" : "cal";

@@ -240,7 +240,8 @@ def run(root: Path, steamcmd: str | None = None, now: datetime | None = None) ->
         })
     data = {
         "generated_at": to_iso(now),
-        "games": [{"id": g["id"], "name": g["name"], "color": g["color"], "text_color": g["text_color"]}
+        "games": [{"id": g["id"], "name": g["name"], "official": g.get("official", g["name"]),
+                   "color": g["color"], "text_color": g["text_color"]}
                   for g in games],
         "items": [i.to_json() for i in final] + carried,
         "sources": sources_out,

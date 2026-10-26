@@ -7,13 +7,14 @@
 <meta name="description" content="各ゲームのアップデート・メンテナンス・事前ダウンロードの予定を毎日自動で集めたカレンダー">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23185FA5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='5' width='16' height='16' rx='2'/%3E%3Cpath d='M16 3v4M8 3v4M4 11h16'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css">
-<link rel="stylesheet" href="assets/style.css?v=20261026">
+<link rel="stylesheet" href="assets/style.css?v=20261026b">
 </head>
 <body>
 <main id="root">
   <nav class="tabs" role="tablist" aria-label="表示の切り替え">
     <button id="tab-btn-cal" role="tab" aria-controls="tab-cal"><i class="ti ti-calendar-month" aria-hidden="true"></i> カレンダー</button>
     <button id="tab-btn-games" role="tab" aria-controls="tab-games"><i class="ti ti-device-gamepad-2" aria-hidden="true"></i> ゲーム一覧</button>
+    <span id="updated" class="updated"></span>
   </nav>
 
   <section id="tab-cal" role="tabpanel" aria-labelledby="tab-btn-cal">
@@ -36,6 +37,8 @@
     </div>
   </header>
 
+  <details id="filters" class="filters" open>
+  <summary class="filters-sum"><i class="ti ti-adjustments-horizontal" aria-hidden="true"></i> 凡例・ゲームの絞り込み <span id="filters-count"></span></summary>
   <div class="legend">
     <span><i class="ti ti-star" aria-hidden="true"></i> 大型アップデート</span>
     <span><i class="ti ti-tool" aria-hidden="true"></i> パッチ・クライアント更新</span>
@@ -54,9 +57,10 @@
       <button class="small-btn js-hide-all"><i class="ti ti-eye-off" aria-hidden="true"></i> すべて非表示</button>
     </div>
   </div>
+  </details>
   <div id="notice" class="notice" hidden>表示するゲームが選ばれていません。ゲームのボタンか「すべて表示」で選んでください。</div>
-  <div id="view" class="view" aria-live="polite"></div>
-  <section id="detail" class="detail" aria-live="polite">予定をクリックすると、内容・ダウンロードの有無・判定根拠・公式の情報源が表示されます。</section>
+  <div id="view" class="view" aria-live="polite"><div class="empty">読み込み中…</div></div>
+  <p id="hint" class="hint" hidden>予定を押すと、内容・ダウンロードの有無・判定根拠・公式の情報源が表示されます。</p>
   </section>
 
   <section id="tab-games" role="tabpanel" aria-labelledby="tab-btn-games" hidden>
@@ -82,6 +86,10 @@
   </details>
   <footer id="foot" class="foot"></footer>
 </main>
-<script src="assets/app.js?v=20261026"></script>
+<dialog id="dlg" class="dlg" aria-labelledby="dlg-title">
+  <div class="dlg-head"><button id="dlg-close" class="icon-btn" aria-label="閉じる"><i class="ti ti-x" aria-hidden="true"></i></button></div>
+  <div id="dlg-body" class="detail dlg-body"></div>
+</dialog>
+<script src="assets/app.js?v=20261026b"></script>
 </body>
 </html>

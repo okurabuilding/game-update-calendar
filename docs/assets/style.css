@@ -201,3 +201,32 @@ a { color: var(--accent); }
 .status .notes { color: var(--text-2); font-size: 12px; padding-left: 1.2em; }
 .foot { margin-top: 12px; font-size: 12px; color: var(--text-3); }
 .stale-note { color: var(--warn); }
+
+/* ---- 2026-10-26 見やすさの改善 */
+.tabs { align-items: center; flex-wrap: wrap; }
+.updated { margin-left: auto; font-size: 12px; color: var(--text-3); white-space: nowrap; padding-left: 8px; }
+.filters { margin-bottom: 4px; }
+.filters-sum { cursor: pointer; font-size: 13px; color: var(--text-2); padding: 6px 0; margin-bottom: 6px; list-style: none; }
+.filters-sum::-webkit-details-marker { display: none; }
+.filters-sum::before { content: "▸"; display: inline-block; width: 1em; transition: transform .15s; }
+.filters[open] > .filters-sum::before { transform: rotate(90deg); }
+@media (min-width: 600px) { .filters-sum { display: none; } }
+.hint { font-size: 12px; color: var(--text-3); margin: 8px 0 0; }
+.hint[hidden] { display: none; }
+.ev.selected, .bar.selected { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent); z-index: 2; }
+.past-toggle { display: block; width: 100%; margin: 4px 0 8px; padding: 8px 10px; text-align: left; font-size: 13px; color: var(--text-2);
+  background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius); cursor: pointer; }
+.past-toggle:hover { color: var(--text); }
+.day-head { position: sticky; top: 0; z-index: 1; background: var(--bg); padding: 4px 0; }
+.dlg { border: none; border-radius: 12px; padding: 0; width: min(680px, calc(100vw - 32px)); max-height: calc(100vh - 48px);
+  background: var(--surface); color: var(--text); box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28); overflow: auto; }
+.dlg::backdrop { background: rgba(0, 0, 0, 0.45); }
+.dlg-head { position: sticky; top: 0; display: flex; justify-content: flex-end; padding: 8px 8px 0; background: var(--surface); }
+.dlg-body { margin: 0; border: none; border-radius: 0; padding: 0 18px 18px; background: transparent; }
+.gtags { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; margin-top: 3px; }
+.gsize { font-size: 12px; color: var(--text-2); }
+.tag.accent { background: var(--accent-bg); color: var(--accent); border-color: transparent; }
+.gsrc-d summary { cursor: pointer; font-size: 12px; color: var(--text-2); }
+.gsrc-d .gsrc { margin-top: 4px; }
+.gtoggle { flex-wrap: wrap; }
+.gofficial { font-size: 13px; font-weight: 600; color: var(--text); }
