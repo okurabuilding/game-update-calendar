@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T18:55+09:00",
+ "generated_at": "2026-10-27T06:43+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 7999761353,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 83076656196,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77226033633,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32132621144
      ]
     ],
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.1.0",
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-10-26T18:55+09:00"
+    "checked_at": "2026-10-27T06:43+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-10-26T18:55+09:00",
+    "checked_at": "2026-10-27T06:43+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -4076,6 +4076,26 @@
    "start": "2026-10-26T12:00+09:00"
   },
   {
+   "id": "steambuild-570-26225725",
+   "game": "DOTA",
+   "kind": "patch",
+   "title": "クライアント更新",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "Steam の公開ビルドが更新されました（ビルドID 26225725、2026/10/27 04:37）"
+   ],
+   "sources": [
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/570/"
+    }
+   ],
+   "source_key": "steambuild",
+   "start": "2026-10-27T04:37+09:00"
+  },
+  {
    "id": "svwb-01M4SME57MD8A3A2JRV1P074RZ",
    "game": "SVWB",
    "kind": "maint",
@@ -4224,7 +4244,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4234,7 +4254,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4244,7 +4264,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4254,7 +4274,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4264,7 +4284,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "steam:570",
@@ -4274,7 +4294,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4284,7 +4304,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4294,7 +4314,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4304,7 +4324,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4314,7 +4334,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "tekken8",
@@ -4324,7 +4344,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "sf6_official",
@@ -4334,7 +4354,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4346,7 +4366,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4356,7 +4376,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4366,7 +4386,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4376,7 +4396,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "lol",
@@ -4386,7 +4406,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   },
   {
    "key": "nikke",
@@ -4396,7 +4416,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-26T18:55+09:00"
+   "last_success": "2026-10-27T06:43+09:00"
   }
  ]
 }
