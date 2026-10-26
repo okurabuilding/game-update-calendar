@@ -367,7 +367,8 @@
     return (ins.official ? '<span class="tag warn">公式の値</span> ' : "") +
       `<b class="gcap">${winGB(ins.bytes)}</b>${parts}` +
       (ins.stale ? ' <span class="tag ng">取得失敗・前回の値</span>' : "") +
-      `<div class="gnote">ストア・SSDの表記では${storeGB(ins.bytes)}<br>${meta}${ins.note ? "<br>" + esc(ins.note) : ""}</div>`;
+      // 注釈（ストア表記・測り方・時刻・注記）はふだん折りたたむ
+      `<details class="gnote-d"><summary>詳しく</summary><div class="gnote">ストア・SSDの表記では${storeGB(ins.bytes)}<br>${meta}${ins.note ? "<br>" + esc(ins.note) : ""}</div></details>`;
   }
 
   // ゲーム一覧の上に出す、インストール容量の合計
@@ -382,9 +383,9 @@
     const official = sized.filter((g) => g.install.official).map((g) => esc(g.name));
     box.innerHTML = `<i class="ti ti-database" aria-hidden="true"></i> ${all}をインストールした場合の合計：<b>${winGB(sum(sized))}</b>（ストア・SSDの表記では${storeGB(sum(sized))}）` +
       (on.length && on.length < sized.length ? `<br>チェック中の${on.length}本の合計：<b>${winGB(sum(on))}</b>（ストア・SSDの表記では${storeGB(sum(on))}）` : "") +
-      `<span class="gnote">容量は Windows のエクスプローラーでの表示です。今の版を日本語で新しくインストールしたときの大きさで、ランチャーアプリ本体と、更新のときに一時的に必要な空きは含みません。` +
+      `<details class="gnote-d"><summary>容量の見方・注意</summary><div class="gnote">容量は Windows のエクスプローラーでの表示です。今の版を日本語で新しくインストールしたときの大きさで、ランチャーアプリ本体と、更新のときに一時的に必要な空きは含みません。` +
       (official.length ? `${official.join("・")}は配信データから測れないため、公式の必要容量で計算しています（実際はこれより大きい可能性があります）。` : "") +
-      "</span>";
+      "</div></details>";
   }
 
   function renderGames() {
