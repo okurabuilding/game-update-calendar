@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T01:00+09:00",
+ "generated_at": "2026-10-29T10:08+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 7999761353,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 83076656196,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77258283691,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32132621144
      ]
     ],
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.1.0",
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-10-29T01:00+09:00"
+    "checked_at": "2026-10-29T10:08+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-10-29T01:00+09:00",
+    "checked_at": "2026-10-29T10:08+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -210,61 +210,6 @@
    "start": "2026-06-17T03:10+09:00",
    "end": "2026-07-08T03:00+09:00",
    "excerpt": "Anima Strike Meta EventAnima Strike is a three-week event that unfolds as you fight your way through the new Tokyo map, where Shion reigns …"
-  },
-  {
-   "id": "hoyo-GI-preLunaVIII",
-   "game": "GI",
-   "kind": "pre",
-   "title": "Luna VIII 事前ダウンロード",
-   "all_day": false,
-   "dl": "yes",
-   "status": "announced",
-   "basis": [
-    "公式告知（2026/06/29 12:10 掲載）に「事前ダウンロードが可能」と記載"
-   ],
-   "sources": [
-    {
-     "label": "HoYoLAB「「Luna Ⅷ」バージョンアップのお知らせ」",
-     "url": "https://www.hoyolab.com/article/45647248"
-    },
-    {
-     "label": "HoYoLAB「「『空月の歌・喜曲』帰夏！映影？千霊祭！」「Luna Ⅷ」正式リリース」",
-     "url": "https://www.hoyolab.com/article/45670084"
-    }
-   ],
-   "source_key": "hoyoverse:gopR6Cufr3",
-   "start": "2026-06-29T12:10+09:00",
-   "end": "2026-07-01T07:00+09:00",
-   "size": "約7GB（公式告知・PC）"
-  },
-  {
-   "id": "hoyo-GI-vLunaVIII",
-   "game": "GI",
-   "kind": "major",
-   "title": "Luna VIII「『空月の歌・喜曲』帰夏!映影?千霊祭!」バージョンアップ",
-   "all_day": false,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "公式告知: 2026/07/01 06:00 (UTC+8) からバージョンアップメンテナンス（日本時間 2026/07/01 07:00）",
-    "バージョンアップではゲームクライアントの更新（ダウンロード）が必要",
-    "公式告知で正式リリース（配信済み）を確認"
-   ],
-   "sources": [
-    {
-     "label": "HoYoLAB「「Luna Ⅷ」バージョンアップのお知らせ」",
-     "url": "https://www.hoyolab.com/article/45647248"
-    },
-    {
-     "label": "HoYoLAB「「『空月の歌・喜曲』帰夏！映影？千霊祭！」「Luna Ⅷ」正式リリース」",
-     "url": "https://www.hoyolab.com/article/45670084"
-    }
-   ],
-   "source_key": "hoyoverse:gopR6Cufr3",
-   "start": "2026-07-01T07:00+09:00",
-   "end": "2026-07-01T12:00+09:00",
-   "size": "約7GB（公式告知の事前ダウンロード容量・PC）",
-   "excerpt": "親愛なる旅人さんへ 2026/07/01 06:00 (UTC+8)よりバージョンアップに伴うメンテナンスを実施いたします。メンテナンス終了後、最新バージョン「Luna VIII」——「『空月の歌・喜曲』帰夏!映影?千霊祭!」に更新されます。 ただいま「Luna VIII」の事…"
   },
   {
    "id": "ow-patch-2026-07-01",
@@ -4042,23 +3987,47 @@
    "game": "NIKKE",
    "kind": "patch",
    "title": "10月29日のアップデートについて",
-   "all_day": false,
+   "all_day": true,
    "dl": "yes",
-   "status": "announced",
+   "status": "confirmed",
    "basis": [
     "NIKKE 公式サイトのお知らせ（2026/10/26 掲載）",
-    "本文に記載の日時「2026年10月29日00:00」",
-    "公式告知に「ゲームクライアントがアップデートされる」旨の記載あり"
+    "公式告知に「ゲームクライアントがアップデートされる」旨の記載あり",
+    "公式告知でメンテナンス終了（実施済み）を確認"
    ],
    "sources": [
     {
      "label": "NIKKE 公式サイト「10月29日のアップデートについて」",
      "url": "https://nikke-jp.com/newsdetail.html?content_id=8cae0ab1a9e86a44e6aa0eaa4acb16a64883"
+    },
+    {
+     "label": "NIKKE 公式サイト「10月29日のアップデートによる改善事項」",
+     "url": "https://nikke-jp.com/newsdetail.html?content_id=814bfc42a4edda4edaabcfca1d6fdba32842"
     }
    ],
    "source_key": "nikke",
-   "start": "2026-10-29T00:00+09:00",
-   "excerpt": "親愛なる指揮官様 『勝利の女神:NIKKE』はアップデートのため、2026年10月29日にメンテナンスを実施する予定です。メンテナンス中はゲームに接続できませんので、ご迷惑をおかけいたしますが、ご理解ご協力のほどよろしくお願いいたします。 今回のアップデートではゲームクライアン…"
+   "start": "2026-10-29",
+   "excerpt": "親愛なる指揮官様 アップデートのメンテナンスが終了し、サーバー再開されました。ゲームにログインしていただけます。この度のメンテナンス補償をゲーム中のメールに配布いたしました。お受け取りください。 今回のアップデートではゲームクライアントがアップデートされるため、ストアから最新バ…"
+  },
+  {
+   "id": "nikke-cf538d1baab20a485faae28a7c2c17d90dee",
+   "game": "NIKKE",
+   "kind": "news",
+   "title": "10月29日既知の問題について（10月29日更新）",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "announced",
+   "basis": [
+    "NIKKE 公式サイトのお知らせ"
+   ],
+   "sources": [
+    {
+     "label": "NIKKE 公式サイト「10月29日既知の問題について（10月29日更新）」",
+     "url": "https://nikke-jp.com/newsdetail.html?content_id=cf538d1baab20a485faae28a7c2c17d90dee"
+    }
+   ],
+   "source_key": "nikke",
+   "start": "2026-10-29T06:54+09:00"
   },
   {
    "id": "hoyo-GI-v7.2",
@@ -4163,7 +4132,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4173,7 +4142,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4183,7 +4152,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4193,7 +4162,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4203,7 +4172,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "steam:570",
@@ -4213,7 +4182,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4223,7 +4192,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4233,7 +4202,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4243,7 +4212,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4253,7 +4222,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "tekken8",
@@ -4263,7 +4232,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "sf6_official",
@@ -4273,7 +4242,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4285,7 +4254,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4295,7 +4264,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4305,7 +4274,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4315,7 +4284,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "lol",
@@ -4325,7 +4294,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   },
   {
    "key": "nikke",
@@ -4335,7 +4304,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-29T01:00+09:00"
+   "last_success": "2026-10-29T10:08+09:00"
   }
  ]
 }
