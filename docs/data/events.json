@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T10:10+09:00",
+ "generated_at": "2026-10-30T12:57+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 7999761353,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 83076656196,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77258283691,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32132621144
      ]
     ],
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.1.0",
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-10-30T10:10+09:00"
+    "checked_at": "2026-10-30T12:57+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-10-30T10:10+09:00",
+    "checked_at": "2026-10-30T12:57+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -210,78 +210,6 @@
    "start": "2026-06-17T03:10+09:00",
    "end": "2026-07-08T03:00+09:00",
    "excerpt": "Anima Strike Meta EventAnima Strike is a three-week event that unfolds as you fight your way through the new Tokyo map, where Shion reigns …"
-  },
-  {
-   "id": "steam-3576070-678502350181109244",
-   "game": "SAZP",
-   "kind": "news",
-   "title": "「サドンアタック：ゼロポイント」クリエイターズ募集のご案内",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「「サドンアタック：ゼロポイント」クリエイターズ募集のご案内」",
-     "url": "https://store.steampowered.com/news/app/3576070/view/678502350181109244"
-    }
-   ],
-   "source_key": "steam:3576070",
-   "start": "2026-07-02T11:01+09:00",
-   "excerpt": "こんにちは。サドンアタック：ゼロポイントです。プレイヤーの皆さまとともに楽しいゲーム文化を作るため、NEXONクリエイターズプログラム(Beta)を運営いたします。クリエイターに選定された場合、サドンアタック：ゼロポイントのキャンペーンに自由に参加でき、その活動で獲得したSAZ…"
-  },
-  {
-   "id": "steam-3576070-678502350181109246",
-   "game": "SAZP",
-   "kind": "news",
-   "title": "サドンアタック：ゼロポイントクリエイターズ運営ポリシー",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「サドンアタック：ゼロポイントクリエイターズ運営ポリシー」",
-     "url": "https://store.steampowered.com/news/app/3576070/view/678502350181109246"
-    }
-   ],
-   "source_key": "steam:3576070",
-   "start": "2026-07-02T11:02+09:00",
-   "excerpt": "\\[NEXONクリエイターズ運営ポリシー] 「NEXONクリエイターズ」の利用者は、「NEXONクリエイターズ運営ポリシー」（以下「本運営ポリシー」といいます）を確認し、遵守するものとします。 本運営ポリシーを熟知せずに発生した損害や不都合に対して当社は責任を負いかねます。 第…"
-  },
-  {
-   "id": "sf6-update20260702",
-   "game": "SF6",
-   "kind": "maint",
-   "title": "アップデートのお知らせ（7月2日 12:00〜16:00）",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "confirmed",
-   "basis": [
-    "SF6 公式（Buckler's Boot Camp）「メンテナンスのお知らせ」（2026/07/01 10:45 掲載）",
-    "SF6 公式（Buckler's Boot Camp）「アップデートのお知らせ」（2026/07/02 15:45 掲載）",
-    "告知に記載のメンテナンス日時「JST 2026年7月2日(木) 12:00〜16:00」",
-    "公式告知でアップデートの実施を確認",
-    "ダウンロードの有無は Steam のゲーム本体の更新で判定します（SF6 はサーバー側だけの更新もあるため）"
-   ],
-   "sources": [
-    {
-     "label": "SF6 公式「メンテナンスのお知らせ」",
-     "url": "https://www.streetfighter.com/6/buckler/ja-jp/information/detail/mainte20260702"
-    },
-    {
-     "label": "SF6 公式「アップデートのお知らせ」",
-     "url": "https://www.streetfighter.com/6/buckler/ja-jp/information/detail/update20260702"
-    }
-   ],
-   "source_key": "sf6_official",
-   "start": "2026-07-02T12:00+09:00",
-   "end": "2026-07-02T16:00+09:00",
-   "excerpt": "下記日時のメンテナンスで、『ストリートファイター6』がアップデートされました。 プレイできない場合は、プラットフォームのホーム画面で最新バージョンのゲームデータにアップデートしてから、起動やログインを行うようにお願いします。 メンテナンス実施日時 JST 2026年7月2日(木…"
   },
   {
    "id": "nikke-2495f255a0ea8a4396a8f13a0f911bbbdbca",
@@ -4089,7 +4017,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4099,7 +4027,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4109,7 +4037,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4119,7 +4047,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4129,7 +4057,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "steam:570",
@@ -4139,7 +4067,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4149,7 +4077,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4159,7 +4087,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4169,7 +4097,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4179,7 +4107,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "tekken8",
@@ -4189,7 +4117,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "sf6_official",
@@ -4199,7 +4127,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4211,7 +4139,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4221,7 +4149,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4231,7 +4159,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4241,7 +4169,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "lol",
@@ -4251,7 +4179,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   },
   {
    "key": "nikke",
@@ -4261,7 +4189,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-10-30T10:10+09:00"
+   "last_success": "2026-10-30T12:57+09:00"
   }
  ]
 }
