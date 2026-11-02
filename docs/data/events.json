@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T21:58+09:00",
+ "generated_at": "2026-11-02T20:07+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 7999761353,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 83076656196,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77258283691,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32132608848
      ]
     ],
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.1.0",
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-11-01T21:58+09:00"
+    "checked_at": "2026-11-02T20:07+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-01T21:58+09:00",
+    "checked_at": "2026-11-02T20:07+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -3852,25 +3852,31 @@
    "excerpt": "こんにちは。サドンアタック：ゼロポイントのディレクター、キム・テヒョンです。 あっという間に2026年も残り二ヶ月ほどとなりました。 今回の開発者ノートでは、今年残りの期間で準備している主要なアップデート内容を先行してご紹介したいと思います。 \\[クラシックマップ＆「マップ投票…"
   },
   {
-   "id": "hoyo-GI-v7.2",
+   "id": "hoyo-GI-pre7.2",
    "game": "GI",
-   "kind": "major",
-   "title": "Ver.7.2「終焉へ墜ちる時」バージョンアップ",
-   "all_day": true,
+   "kind": "pre",
+   "title": "Ver.7.2 事前ダウンロード",
+   "all_day": false,
    "dl": "yes",
-   "status": "scheduled",
+   "status": "confirmed",
    "basis": [
-    "公式投稿「【原神】Ver.7.2「終焉へ墜ちる時」イベントまとめ」に「Ver.7.2「終焉へ墜ちる時」は2026年11月4日にリリース」と記載（時刻は後日の告知で確定）",
-    "バージョンアップではゲームクライアントの更新（ダウンロード）が必要"
+    "公式告知（2026/11/02 12:10 掲載）に「事前ダウンロードが可能」と記載",
+    "公式ランチャー（HoYoPlay）で事前ダウンロード（7.2.0）の提供を確認"
    ],
    "sources": [
+    {
+     "label": "HoYoLAB「Ver.7.2バージョンアップのお知らせ」",
+     "url": "https://www.hoyolab.com/article/47283828"
+    },
     {
      "label": "HoYoLAB「【原神】Ver.7.2「終焉へ墜ちる時」イベントまとめ」",
      "url": "https://www.hoyolab.com/article/47176673"
     }
    ],
    "source_key": "hoyoverse:gopR6Cufr3",
-   "start": "2026-11-04"
+   "start": "2026-11-02T12:10+09:00",
+   "end": "2026-11-04T07:00+09:00",
+   "size": "約7.9GB（PC・Ver.7.1から更新・本体＋日本語音声）"
   },
   {
    "id": "lol-26-22",
@@ -3893,6 +3899,34 @@
    "source_key": "lol",
    "start": "2026-11-04",
    "note": "日付は Riot 公式の予定日（米国太平洋時間）です。日本サーバーへの配信時刻は公式に告知されません。"
+  },
+  {
+   "id": "hoyo-GI-v7.2",
+   "game": "GI",
+   "kind": "major",
+   "title": "Ver.7.2「終焉へ墜ちる時」バージョンアップ",
+   "all_day": false,
+   "dl": "yes",
+   "status": "scheduled",
+   "basis": [
+    "公式告知: 2026/11/04 06:00 (UTC+8) からバージョンアップメンテナンス（日本時間 2026/11/04 07:00）",
+    "バージョンアップではゲームクライアントの更新（ダウンロード）が必要"
+   ],
+   "sources": [
+    {
+     "label": "HoYoLAB「Ver.7.2バージョンアップのお知らせ」",
+     "url": "https://www.hoyolab.com/article/47283828"
+    },
+    {
+     "label": "HoYoLAB「【原神】Ver.7.2「終焉へ墜ちる時」イベントまとめ」",
+     "url": "https://www.hoyolab.com/article/47176673"
+    }
+   ],
+   "source_key": "hoyoverse:gopR6Cufr3",
+   "start": "2026-11-04T07:00+09:00",
+   "end": "2026-11-04T12:00+09:00",
+   "size": "約8GB（公式告知の事前ダウンロード容量・PC）",
+   "excerpt": "親愛なる旅人さんへ 2026/11/04 06:00 (UTC+8)よりバージョンアップに伴うメンテナンスを実施いたします。メンテナンス終了後、最新のVer.7.2「終焉へ墜ちる時」に更新されます。 ただいまVer.7.2の事前ダウンロードが可能です。ゲームの一部アップデートリ…"
   },
   {
    "id": "svwb-01M610YQ392P4SRBVT68Z26STH",
@@ -3977,7 +4011,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "steam:3576070",
@@ -3987,7 +4021,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "steam:2357570",
@@ -3997,7 +4031,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4007,7 +4041,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4017,7 +4051,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "steam:570",
@@ -4027,7 +4061,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4037,7 +4071,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4047,7 +4081,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4057,7 +4091,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4067,7 +4101,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "tekken8",
@@ -4077,7 +4111,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "sf6_official",
@@ -4087,7 +4121,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4099,7 +4133,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4109,7 +4143,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4119,7 +4153,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4129,7 +4163,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "lol",
@@ -4139,7 +4173,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   },
   {
    "key": "nikke",
@@ -4149,7 +4183,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-01T21:58+09:00"
+   "last_success": "2026-11-02T20:07+09:00"
   }
  ]
 }
