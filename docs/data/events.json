@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T15:23+09:00",
+ "generated_at": "2026-11-05T08:40+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 7999761353,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84280042417,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77258284715,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32276182775
      ]
     ],
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-11-04T15:23+09:00"
+    "checked_at": "2026-11-05T08:40+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-04T15:23+09:00",
+    "checked_at": "2026-11-05T08:40+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -189,28 +189,6 @@
   }
  ],
  "items": [
-  {
-   "id": "steam-2357570-694261777025729030",
-   "game": "OW",
-   "kind": "event",
-   "title": "Anima Strike Meta Event",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ゲーム内イベント）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「Anima Strike Meta Event」",
-     "url": "https://store.steampowered.com/news/app/2357570/view/694261777025729030"
-    }
-   ],
-   "source_key": "steam:2357570",
-   "start": "2026-06-17T03:10+09:00",
-   "end": "2026-07-08T03:00+09:00",
-   "excerpt": "Anima Strike Meta EventAnima Strike is a three-week event that unfolds as you fight your way through the new Tokyo map, where Shion reigns …"
-  },
   {
    "id": "steam-3576070-678502350181111683",
    "game": "SAZP",
@@ -3953,7 +3931,7 @@
    ],
    "source_key": "blizzard_ow",
    "start": "2026-11-04T04:06+09:00",
-   "excerpt": "帝国掌握 11月4日~12月8日の期間中、新イベント「帝国掌握」を配信します。このイベントでは、プレイを重ねてチャレンジをクリアすることで、限定の報酬が手に入ります。プレミアム版にアップグレードすれば、ドゥームフィストのレジェンダリー・スキンやヴェンデッタの武器スキンなどのプレ…"
+   "excerpt": "帝国掌握 11月4日~12月8日の期間中、新イベント「帝国掌握」を配信します。このイベントでは、プレイを重ねてチャレンジをクリアすることで、限定の報酬が手に入ります。プレミアム版にアップグレードすれば、ドゥームフィストのレジェンダリー・スキンやヴェンデッタのレジェンダリー武器ス…"
   },
   {
    "id": "steam-2357570-717919626870135448",
@@ -4050,6 +4028,66 @@
    "end": "2026-11-04T12:00+09:00",
    "size": "約7.9GB（PC・Ver.7.1から更新・本体＋日本語音声）",
    "excerpt": "親愛なる旅人さんへ 2026/11/04 06:00 (UTC+8)よりバージョンアップに伴うメンテナンスを実施いたします。メンテナンス終了後、最新のVer.7.2「終焉へ墜ちる時」に更新されます。 ただいまVer.7.2の事前ダウンロードが可能です。ゲームの一部アップデートリ…"
+  },
+  {
+   "id": "nikke-bc643d47a6935a4ebbabcefa81b6e578875d",
+   "game": "NIKKE",
+   "kind": "news",
+   "title": "PCランチャーのセキュリティに関する手動確認方法のご案内",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "announced",
+   "basis": [
+    "NIKKE 公式サイトのお知らせ"
+   ],
+   "sources": [
+    {
+     "label": "NIKKE 公式サイト「PCランチャーのセキュリティに関する手動確認方法のご案内」",
+     "url": "https://nikke-jp.com/newsdetail.html?content_id=bc643d47a6935a4ebbabcefa81b6e578875d"
+    }
+   ],
+   "source_key": "nikke",
+   "start": "2026-11-05T08:00+09:00"
+  },
+  {
+   "id": "nikke-6249009ca6d9ea4641a96fcaef3bbe077f02",
+   "game": "NIKKE",
+   "kind": "news",
+   "title": "PCランチャーのセキュリティインシデントおよび今後の対応について",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "announced",
+   "basis": [
+    "NIKKE 公式サイトのお知らせ"
+   ],
+   "sources": [
+    {
+     "label": "NIKKE 公式サイト「PCランチャーのセキュリティインシデントおよび今後の対応について」",
+     "url": "https://nikke-jp.com/newsdetail.html?content_id=6249009ca6d9ea4641a96fcaef3bbe077f02"
+    }
+   ],
+   "source_key": "nikke",
+   "start": "2026-11-05T08:00+09:00"
+  },
+  {
+   "id": "nikke-d0ff527fa53b2a4ebaaa5a7afb42394a5ab3",
+   "game": "NIKKE",
+   "kind": "news",
+   "title": "PCランチャーのセキュリティインシデントに関するお詫び",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "announced",
+   "basis": [
+    "NIKKE 公式サイトのお知らせ"
+   ],
+   "sources": [
+    {
+     "label": "NIKKE 公式サイト「PCランチャーのセキュリティインシデントに関するお詫び」",
+     "url": "https://nikke-jp.com/newsdetail.html?content_id=d0ff527fa53b2a4ebaaa5a7afb42394a5ab3"
+    }
+   ],
+   "source_key": "nikke",
+   "start": "2026-11-05T08:00+09:00"
   },
   {
    "id": "steam-3576070-704409462168881987",
@@ -4157,7 +4195,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4167,7 +4205,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4177,7 +4215,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4187,7 +4225,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4197,7 +4235,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "steam:570",
@@ -4207,7 +4245,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4217,7 +4255,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4227,7 +4265,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4237,7 +4275,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4247,7 +4285,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "tekken8",
@@ -4257,7 +4295,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "sf6_official",
@@ -4267,7 +4305,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4279,7 +4317,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4289,7 +4327,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4299,7 +4337,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4309,7 +4347,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "lol",
@@ -4319,7 +4357,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   },
   {
    "key": "nikke",
@@ -4329,7 +4367,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-04T15:23+09:00"
+   "last_success": "2026-11-05T08:40+09:00"
   }
  ]
 }
