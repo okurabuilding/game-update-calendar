@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T02:24+09:00",
+ "generated_at": "2026-11-06T08:38+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8001177849,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -21,10 +21,10 @@
    "color": "#EF9F27",
    "text_color": "#412402",
    "install": {
-    "bytes": 84280042417,
+    "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77258284715,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32276182775
      ]
     ],
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-11-06T02:24+09:00"
+    "checked_at": "2026-11-06T08:38+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-06T02:24+09:00",
+    "checked_at": "2026-11-06T08:38+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -4095,6 +4095,46 @@
    "excerpt": "こんにちは。サドンアタック：ゼロポイントです。本日の定期メンテナンスで適用されたアップデート内容をお知らせいたします。詳細は以下のパッチノートをご確認ください。パッチノート▣ コンテンツアップデートアイテム変換システム 使用しないUncommonパーツとクレートを、それぞれRa…"
   },
   {
+   "id": "steambuild-570-26466928",
+   "game": "DOTA",
+   "kind": "patch",
+   "title": "クライアント更新",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "Steam の公開ビルドが更新されました（ビルドID 26466928、2026/11/06 04:45）"
+   ],
+   "sources": [
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/570/"
+    }
+   ],
+   "source_key": "steambuild",
+   "start": "2026-11-06T04:45+09:00"
+  },
+  {
+   "id": "steambuild-2357570-26464179",
+   "game": "OW",
+   "kind": "patch",
+   "title": "クライアント更新",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "Steam の公開ビルドが更新されました（ビルドID 26464179、2026/11/06 08:00）"
+   ],
+   "sources": [
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/2357570/"
+    }
+   ],
+   "source_key": "steambuild",
+   "start": "2026-11-06T08:00+09:00"
+  },
+  {
    "id": "svwb-01M610YQ392P4SRBVT68Z26STH",
    "game": "SVWB",
    "kind": "maint",
@@ -4177,7 +4217,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4187,7 +4227,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4197,7 +4237,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4207,7 +4247,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4217,7 +4257,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "steam:570",
@@ -4227,7 +4267,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4237,7 +4277,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4247,7 +4287,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4257,7 +4297,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4267,7 +4307,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "tekken8",
@@ -4277,7 +4317,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "sf6_official",
@@ -4287,7 +4327,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4299,7 +4339,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4309,7 +4349,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4319,7 +4359,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4329,7 +4369,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "lol",
@@ -4339,7 +4379,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   },
   {
    "key": "nikke",
@@ -4349,7 +4389,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T02:24+09:00"
+   "last_success": "2026-11-06T08:38+09:00"
   }
  ]
 }
