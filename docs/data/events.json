@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T08:38+09:00",
+ "generated_at": "2026-11-06T15:46+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8001177849,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77258284715,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32276182775
      ]
     ],
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-11-06T08:38+09:00"
+    "checked_at": "2026-11-06T15:46+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-06T08:38+09:00",
+    "checked_at": "2026-11-06T15:46+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -189,90 +189,6 @@
   }
  ],
  "items": [
-  {
-   "id": "steam-3576070-678502350181112083",
-   "game": "SAZP",
-   "kind": "news",
-   "title": "[更新済み] ファイナルCBT 既知の不具合について",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「[更新済み] ファイナルCBT 既知の不具合について」",
-     "url": "https://store.steampowered.com/news/app/3576070/view/678502350181112083"
-    }
-   ],
-   "source_key": "steam:3576070",
-   "start": "2026-07-09T14:00+09:00",
-   "excerpt": "こんにちは。サドンアタック：ゼロポイントです。ファイナルCBTにて確認されている不具合についてご案内いたします。大変ご不便をお掛けいたしますが、暫定的な解決方法をご参照いただけますと幸いです。\\[既知の不具合](調査中) まれに、マッチ参加後に武器が表示されない現象が発生してい…"
-  },
-  {
-   "id": "steam-3576070-678502350181111681",
-   "game": "SAZP",
-   "kind": "event",
-   "title": "ファイナルCBTチャレンジキャンペーン開催のお知らせ",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「ファイナルCBTチャレンジキャンペーン開催のお知らせ」",
-     "url": "https://store.steampowered.com/news/app/3576070/view/678502350181111681"
-    }
-   ],
-   "source_key": "steam:3576070",
-   "start": "2026-07-09T14:00+09:00",
-   "excerpt": "こんにちは。サドンアタック：ゼロポイントです。ファイナルCBTチャレンジキャンペーンが始まりました。キャンペーンの詳細をご紹介します。下記の内容をご確認ください。皆さまの関心と積極的なご参加をお待ちしております！本キャンペーンは、「サドンアタック：ゼロポイント」クリエイターズに…"
-  },
-  {
-   "id": "steam-3576070-678502350181111672",
-   "game": "SAZP",
-   "kind": "news",
-   "title": "ファイナルCBT開始のご案内",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「ファイナルCBT開始のご案内」",
-     "url": "https://store.steampowered.com/news/app/3576070/view/678502350181111672"
-    }
-   ],
-   "source_key": "steam:3576070",
-   "start": "2026-07-09T14:00+09:00",
-   "excerpt": "こんにちは。サドンアタック：ゼロポイントです。ついにファイナルCBTが始まりました！昨年10月のSteam Next Fest以来、皆さまからいただいたフィードバックをもとに最適化の面で大幅な改善を行い、新マップや武器に加え、武器パーツ、ブラックマーケットなども追加されました。…"
-  },
-  {
-   "id": "steam-3576070-678502350181111669",
-   "game": "SAZP",
-   "kind": "event",
-   "title": "Final CBT ハイライトイベント",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「Final CBT ハイライトイベント」",
-     "url": "https://store.steampowered.com/news/app/3576070/view/678502350181111669"
-    }
-   ],
-   "source_key": "steam:3576070",
-   "start": "2026-07-09T14:00+09:00",
-   "excerpt": "こんにちは。Sudden Attack Zero Pointです。Final CBT期間中に開催されるコミュニティイベントをご案内いたします。イベント期間中にゲームプレイ動画をSNSにアップロードし、オリジナル動画をご提出ください。選定された動画は公式ホームページのクリエイター…"
-  },
   {
    "id": "steam-3576070-678502350181112307",
    "game": "SAZP",
@@ -4140,16 +4056,21 @@
    "kind": "maint",
    "title": "【11月6日 15:00 ～ 17:00】次回の施策開催の準備に伴うメンテナンスのお知らせ",
    "all_day": false,
-   "dl": "unknown",
-   "status": "scheduled",
+   "dl": "yes",
+   "status": "confirmed",
    "basis": [
     "シャドバ公式サイトのお知らせ（2026/10/30 19:00 掲載）",
-    "告知に記載のメンテナンス期間「2026/11/6 15:00 ~ 17:00」"
+    "告知に記載のメンテナンス期間「2026/11/6 15:00 ~ 17:00」",
+    "Steam の公開ビルドが更新されました（ビルドID 26287990、2026/11/06 15:08）"
    ],
    "sources": [
     {
      "label": "シャドバ公式サイト「【11月6日 15:00 ～ 17:00】次回の施策開催の準備に伴うメンテナンスのお知らせ」",
      "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M610YQ392P4SRBVT68Z26STH"
+    },
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/2584990/"
     }
    ],
    "source_key": "shadowverse_wb",
@@ -4217,7 +4138,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4227,7 +4148,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4237,7 +4158,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4247,7 +4168,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4257,7 +4178,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "steam:570",
@@ -4267,7 +4188,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4277,7 +4198,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4287,7 +4208,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4297,7 +4218,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4307,7 +4228,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "tekken8",
@@ -4317,7 +4238,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "sf6_official",
@@ -4327,7 +4248,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4339,7 +4260,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4349,7 +4270,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4359,7 +4280,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4369,7 +4290,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "lol",
@@ -4379,7 +4300,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   },
   {
    "key": "nikke",
@@ -4389,7 +4310,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-06T08:38+09:00"
+   "last_success": "2026-11-06T15:46+09:00"
   }
  ]
 }
