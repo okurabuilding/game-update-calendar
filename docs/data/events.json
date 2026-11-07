@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T22:01+09:00",
+ "generated_at": "2026-11-08T04:26+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8001177849,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77258284715,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32276182775
      ]
     ],
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.6.0",
-    "checked_at": "2026-11-07T22:01+09:00"
+    "checked_at": "2026-11-08T04:26+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-07T22:01+09:00",
+    "checked_at": "2026-11-08T04:26+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -189,27 +189,6 @@
   }
  ],
  "items": [
-  {
-   "id": "steam-1778820-681881498796687922",
-   "game": "T8",
-   "kind": "news",
-   "title": "『てっけん！ゆるっとカートゥーン』　三島一八編 ~イラッときたらドリャっと~",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "Steamのお知らせ（種類: ニュース）"
-   ],
-   "sources": [
-    {
-     "label": "Steamのお知らせ「『てっけん！ゆるっとカートゥーン』　三島一八編 ~イラッときたらドリャっと~」",
-     "url": "https://store.steampowered.com/news/app/1778820/view/681881498796687922"
-    }
-   ],
-   "source_key": "steam:1778820",
-   "start": "2026-07-11T00:30+09:00",
-   "excerpt": "三島一八編~イラッときたらドリャっと~嫌なこと？全部まとめてマグマ行き。▼ご視聴はこちら今後の配信情報は公式チャンネル・公式SNSでチェック！■鉄拳公式Xhttps://x.com/TEKKEN_Project■鉄拳公式Instagramhttps://www.instagra…"
-  },
   {
    "id": "steam-3576070-716784395910907289",
    "game": "SAZP",
@@ -4045,7 +4024,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4055,7 +4034,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4065,7 +4044,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4075,7 +4054,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4085,7 +4064,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "steam:570",
@@ -4095,7 +4074,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4105,7 +4084,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4115,7 +4094,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4125,7 +4104,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4135,7 +4114,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "tekken8",
@@ -4145,7 +4124,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "sf6_official",
@@ -4155,7 +4134,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4167,7 +4146,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4177,7 +4156,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4187,7 +4166,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4197,7 +4176,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "lol",
@@ -4207,7 +4186,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   },
   {
    "key": "nikke",
@@ -4217,7 +4196,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-07T22:01+09:00"
+   "last_success": "2026-11-08T04:26+09:00"
   }
  ]
 }
