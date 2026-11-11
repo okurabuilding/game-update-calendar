@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T15:21+09:00",
+ "generated_at": "2026-11-12T02:08+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8001177849,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 140771164892,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77237612303,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32276182775
      ]
     ],
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.7.0",
-    "checked_at": "2026-11-11T15:21+09:00"
+    "checked_at": "2026-11-12T02:08+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-11T15:21+09:00",
+    "checked_at": "2026-11-12T02:08+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -214,55 +214,6 @@
    "start": "2026-07-13T15:00+09:00",
    "end": "2026-07-15T07:00+09:00",
    "size": "約4.4GB（公式告知・PC）"
-  },
-  {
-   "id": "lol-26-14",
-   "game": "LOL",
-   "kind": "patch",
-   "title": "リーグ・オブ・レジェンド パッチノート 26.14",
-   "all_day": true,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "Riot 公式パッチスケジュール: パッチ 26.14 は 2026/07/15（太平洋時間）",
-    "LoL の定期パッチは Riot クライアントでのダウンロードが必要",
-    "Riot 公式データ（Data Dragon）でバージョン 16.14 の配信を確認"
-   ],
-   "sources": [
-    {
-     "label": "Riot 公式パッチスケジュール",
-     "url": "https://support.riotgames.com/en-us/league-of-legends/gameplay/patch-schedule-league-of-legends"
-    },
-    {
-     "label": "パッチノート（リーグ・オブ・レジェンド パッチノート 26.14）",
-     "url": "https://www.leagueoflegends.com/ja-jp/news/game-updates/league-of-legends-patch-26-14-notes"
-    }
-   ],
-   "source_key": "lol",
-   "start": "2026-07-15",
-   "note": "日付は Riot 公式の予定日（米国太平洋時間）です。日本サーバーへの配信時刻は公式に告知されません。"
-  },
-  {
-   "id": "ow-patch-2026-07-14",
-   "game": "OW",
-   "kind": "patch",
-   "title": "[オーバーウォッチ] 2026年7月15日配信パッチ内容のおしらせ",
-   "all_day": true,
-   "dl": "likely",
-   "status": "announced",
-   "basis": [
-    "Blizzard 公式パッチノート（2026/07/14 掲載）のタイトルに記載の配信日",
-    "ダウンロードの有無は、配信後に Steam のビルド更新で確定します"
-   ],
-   "sources": [
-    {
-     "label": "Blizzard 公式パッチノート「[オーバーウォッチ] 2026年7月15日配信パッチ内容のおしらせ」",
-     "url": "https://overwatch.blizzard.com/ja-jp/news/patch-notes/live/2026/07/#patch-2026-07-14"
-    }
-   ],
-   "source_key": "blizzard_ow",
-   "start": "2026-07-15",
-   "excerpt": "サマー・ゲーム2026 夏の定番イベント「サマー・ゲーム」がアーケードに復活しました!「ルシオボール」、「ルシオボール・リミックス」、「ウィンストンのビーチバレー」の3種類のモードと、限定報酬付きの新チャレンジを7月15日から31日までの間、配信しています。 ジャンクラットのト…"
   },
   {
    "id": "hoyo-HSR-v4.4",
@@ -4034,7 +3985,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4044,7 +3995,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4054,7 +4005,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4064,7 +4015,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4074,7 +4025,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "steam:570",
@@ -4084,7 +4035,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4094,7 +4045,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4104,7 +4055,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4114,7 +4065,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4124,7 +4075,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "tekken8",
@@ -4134,7 +4085,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "sf6_official",
@@ -4144,7 +4095,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4156,7 +4107,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4166,7 +4117,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4176,7 +4127,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4186,7 +4137,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "lol",
@@ -4196,7 +4147,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   },
   {
    "key": "nikke",
@@ -4206,7 +4157,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-11T15:21+09:00"
+   "last_success": "2026-11-12T02:08+09:00"
   }
  ]
 }
