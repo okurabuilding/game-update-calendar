@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T02:08+09:00",
+ "generated_at": "2026-11-12T09:44+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8001177849,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -34,10 +34,10 @@
    "color": "#A32D2D",
    "text_color": "#FFFFFF",
    "install": {
-    "bytes": 140771164892,
+    "bytes": 142591530773,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -60,10 +60,10 @@
    "color": "#712B13",
    "text_color": "#FFFFFF",
    "install": {
-    "bytes": 77237612303,
+    "bytes": 77233664873,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32276182775
      ]
     ],
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.7.0",
-    "checked_at": "2026-11-12T02:08+09:00"
+    "checked_at": "2026-11-12T09:44+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-12T02:08+09:00",
+    "checked_at": "2026-11-12T09:44+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -189,61 +189,6 @@
   }
  ],
  "items": [
-  {
-   "id": "hoyo-HSR-pre4.4",
-   "game": "HSR",
-   "kind": "pre",
-   "title": "Ver.4.4 事前ダウンロード",
-   "all_day": false,
-   "dl": "yes",
-   "status": "announced",
-   "basis": [
-    "公式告知: 事前ダウンロード開始 2026/07/13 15:00(JST)"
-   ],
-   "sources": [
-    {
-     "label": "HoYoLAB「Ver.4.4アップデートメンテナンスのお知らせ」",
-     "url": "https://www.hoyolab.com/article/45832917"
-    },
-    {
-     "label": "HoYoLAB「Ver.4.4「汽笛は轟く、帰寂のさなかに」アップデートについて」",
-     "url": "https://www.hoyolab.com/article/45851903"
-    }
-   ],
-   "source_key": "hoyoverse:4ziysqXOQ8",
-   "start": "2026-07-13T15:00+09:00",
-   "end": "2026-07-15T07:00+09:00",
-   "size": "約4.4GB（公式告知・PC）"
-  },
-  {
-   "id": "hoyo-HSR-v4.4",
-   "game": "HSR",
-   "kind": "major",
-   "title": "Ver.4.4「汽笛は轟く、帰寂のさなかに」バージョンアップ",
-   "all_day": false,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "公式告知: 2026/07/15 07:00(JST) からバージョンアップメンテナンス（日本時間 2026/07/15 07:00）",
-    "バージョンアップではゲームクライアントの更新（ダウンロード）が必要",
-    "公式ランチャー（HoYoPlay）の配信バージョン（4.7.0）から、配信済みであることを確認"
-   ],
-   "sources": [
-    {
-     "label": "HoYoLAB「Ver.4.4アップデートメンテナンスのお知らせ」",
-     "url": "https://www.hoyolab.com/article/45832917"
-    },
-    {
-     "label": "HoYoLAB「Ver.4.4「汽笛は轟く、帰寂のさなかに」アップデートについて」",
-     "url": "https://www.hoyolab.com/article/45851903"
-    }
-   ],
-   "source_key": "hoyoverse:4ziysqXOQ8",
-   "start": "2026-07-15T07:00+09:00",
-   "end": "2026-07-15T12:00+09:00",
-   "size": "約4.4GB（公式告知の事前ダウンロード容量・PC）",
-   "excerpt": "親愛なる開拓者様へ Ver.4.4の事前ダウンロードは2026/07/13 15:00(JST)に開始いたします。開拓者の皆様は、事前に一部リソースをダウンロードしていただくと、バージョンアップメンテナンス終了後、より早くゲームにログインできます。 また、列車運営チームは202…"
-  },
   {
    "id": "steam-4162040-693140950130622535",
    "game": "ZZZ",
@@ -1276,29 +1221,26 @@
    "game": "T8",
    "kind": "major",
    "title": "アップデートデータ Ver.3.02.01",
-   "all_day": false,
+   "all_day": true,
    "dl": "yes",
    "status": "confirmed",
    "basis": [
     "鉄拳8 公式のアップデート履歴: V3.02.01（配信 2026/08/20・Steam 版を含む）",
     "公式に「アップデートデータを配信」と記載（ゲーム本体の更新）",
-    "追加キャラクターに対応するアップデート",
-    "公式告知の適用日時「8/20(木)7:00頃より順次適用」",
-    "メンテナンス日時（公式告知）: 8/20(木)6:30~13:00"
+    "追加キャラクターに対応するアップデート"
    ],
    "sources": [
     {
-     "label": "鉄拳シリーズ公式ニュース「アップデートデータ Ver.3.02.01」",
-     "url": "https://www.tekken-official.jp/tekken_news/?p=3547"
-    },
-    {
      "label": "鉄拳8 公式 アップデート履歴",
      "url": "https://tk8.tekken-official.jp/update/history.php"
+    },
+    {
+     "label": "鉄拳シリーズ公式ニュース（V3.02.01）",
+     "url": "https://www.tekken-official.jp/tekken_news/?p=3547"
     }
    ],
    "source_key": "tekken8",
-   "start": "2026-08-20T07:00+09:00",
-   "excerpt": "以下内容にて『鉄拳8』のアップデートデータを配信いたします。 ■ バージョン Ver.3.02.01 ■ 適用日時 [JST] 8/20(木)7:00頃より順次適用 ■ メンテナンス日時 [JST] 8/20(木)6:30~13:00 備考: ・日時は予告なく変更する場合がござ…"
+   "start": "2026-08-20"
   },
   {
    "id": "steam-1778820-697647721675227603",
@@ -3926,6 +3868,67 @@
    "excerpt": "親愛なる開拓者様へ Ver.4.7の事前ダウンロードは2026/11/09 15:00 (JST)に開始いたします。開拓者の皆様は、事前に一部リソースをダウンロードしていただくと、バージョンアップメンテナンス終了後、より早くゲームにログインできます。 また、列車運営チームは20…"
   },
   {
+   "id": "steam-2357570-678514508654706872",
+   "game": "OW",
+   "kind": "news",
+   "title": "Black Friday Savings Are Here",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "announced",
+   "basis": [
+    "Steamのお知らせ（種類: アイテムセール）"
+   ],
+   "sources": [
+    {
+     "label": "Steamのお知らせ「Black Friday Savings Are Here」",
+     "url": "https://store.steampowered.com/news/app/2357570/view/678514508654706872"
+    }
+   ],
+   "source_key": "steam:2357570",
+   "start": "2026-11-12T04:57+09:00",
+   "excerpt": "Black Friday Bundle Savings Black Friday has arrived with a simple way to level up your Overwatch collection. Save 20% on four select bundl…"
+  },
+  {
+   "id": "steambuild-1778820-26155785",
+   "game": "T8",
+   "kind": "patch",
+   "title": "クライアント更新",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "Steam の公開ビルドが更新されました（ビルドID 26155785、2026/11/12 07:00）"
+   ],
+   "sources": [
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/1778820/"
+    }
+   ],
+   "source_key": "steambuild",
+   "start": "2026-11-12T07:00+09:00"
+  },
+  {
+   "id": "steambuild-570-26602578",
+   "game": "DOTA",
+   "kind": "patch",
+   "title": "クライアント更新",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "Steam の公開ビルドが更新されました（ビルドID 26602578、2026/11/12 07:34）"
+   ],
+   "sources": [
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/570/"
+    }
+   ],
+   "source_key": "steambuild",
+   "start": "2026-11-12T07:34+09:00"
+  },
+  {
    "id": "lol-26-23",
    "game": "LOL",
    "kind": "patch",
@@ -3985,7 +3988,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "steam:3576070",
@@ -3995,7 +3998,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4005,7 +4008,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4015,7 +4018,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4025,7 +4028,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "steam:570",
@@ -4035,7 +4038,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4045,7 +4048,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4055,7 +4058,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4065,7 +4068,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4075,7 +4078,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "tekken8",
@@ -4085,7 +4088,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "sf6_official",
@@ -4095,7 +4098,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4107,7 +4110,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4117,7 +4120,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4127,7 +4130,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4137,7 +4140,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "lol",
@@ -4147,7 +4150,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   },
   {
    "key": "nikke",
@@ -4157,7 +4160,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-12T02:08+09:00"
+   "last_success": "2026-11-12T09:44+09:00"
   }
  ]
 }
