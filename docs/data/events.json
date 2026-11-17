@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T12:54+09:00",
+ "generated_at": "2026-11-18T01:00+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8001177849,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 142591530773,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77248608639,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32276182775
      ]
     ],
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.7.0",
-    "checked_at": "2026-11-17T12:54+09:00"
+    "checked_at": "2026-11-18T01:00+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-17T12:54+09:00",
+    "checked_at": "2026-11-18T01:00+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -189,26 +189,6 @@
   }
  ],
  "items": [
-  {
-   "id": "nikke-b08608cda94d3a4a9aa8dd5a9174c9b8e181",
-   "game": "NIKKE",
-   "kind": "news",
-   "title": "センチの宝ものスキル調整についてのご案内",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "NIKKE 公式サイトのお知らせ"
-   ],
-   "sources": [
-    {
-     "label": "NIKKE 公式サイト「センチの宝ものスキル調整についてのご案内」",
-     "url": "https://nikke-jp.com/newsdetail.html?content_id=b08608cda94d3a4a9aa8dd5a9174c9b8e181"
-    }
-   ],
-   "source_key": "nikke",
-   "start": "2026-07-20T16:59+09:00"
-  },
   {
    "id": "hoyo-HSR-upd45967008",
    "game": "HSR",
@@ -235,33 +215,6 @@
    "excerpt": "親愛なる開拓者の皆様へ 列車運営チームは2026/07/21 16:00(JST)に、コラボイベント「幻造:聖杯戦争」に伴うアップデートを行いました。2026/07/23 15:00 (JST)までにアップデートデータをダウンロードしなかった場合、強制終了が発生します。ゲームを…"
   },
   {
-   "id": "nikke-30477679aa60aa46ddaa269ae877e29aff76",
-   "game": "NIKKE",
-   "kind": "patch",
-   "title": "7月23日のアップデートについて（7月23日更新）",
-   "all_day": true,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "NIKKE 公式サイトのお知らせ（2026/07/20 掲載）",
-    "公式告知に「ゲームクライアントがアップデートされる」旨の記載あり",
-    "公式告知でメンテナンス終了（実施済み）を確認"
-   ],
-   "sources": [
-    {
-     "label": "NIKKE 公式サイト「7月23日のアップデートについて（7月23日更新）」",
-     "url": "https://nikke-jp.com/newsdetail.html?content_id=30477679aa60aa46ddaa269ae877e29aff76"
-    },
-    {
-     "label": "NIKKE 公式サイト「7月23日のアップデートによる改善事項」",
-     "url": "https://nikke-jp.com/newsdetail.html?content_id=494cbd92a3b04a4f24aa5dda7f1e8e684afc"
-    }
-   ],
-   "source_key": "nikke",
-   "start": "2026-07-23",
-   "excerpt": "親愛なる指揮官様 アップデートのメンテナンスが終了し、サーバー再開されました。ゲームにログインしていただけます。この度のメンテナンス補償をゲーム中のメールに配布いたしました。お受け取りください。 今回のアップデートではゲームクライアントがアップデートされるため、ストアから最新バ…"
-  },
-  {
    "id": "steam-2357570-714530512231729368",
    "game": "OW",
    "kind": "news",
@@ -281,6 +234,26 @@
    "source_key": "steam:2357570",
    "start": "2026-07-23T02:05+09:00",
    "excerpt": "The Overwatch® BlizzCon® Bundle brings icy domination straight to your collection with four exclusive in-game items inspired by one of Bliz…"
+  },
+  {
+   "id": "nikke-494cbd92a3b04a4f24aa5dda7f1e8e684afc",
+   "game": "NIKKE",
+   "kind": "news",
+   "title": "7月23日のアップデートによる改善事項",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "announced",
+   "basis": [
+    "NIKKE 公式サイトのお知らせ"
+   ],
+   "sources": [
+    {
+     "label": "NIKKE 公式サイト「7月23日のアップデートによる改善事項」",
+     "url": "https://nikke-jp.com/newsdetail.html?content_id=494cbd92a3b04a4f24aa5dda7f1e8e684afc"
+    }
+   ],
+   "source_key": "nikke",
+   "start": "2026-07-23T17:36+09:00"
   },
   {
    "id": "nikke-fd11e0faa97f4a4809ab02ca83bf2f18d559",
@@ -3958,7 +3931,7 @@
    "id": "steam-1778820-694277726961402779",
    "game": "T8",
    "kind": "news",
-   "title": "TEKKEN 8 x Nike - Collab Collection Trailer",
+   "title": "NIKEとの限定コラボアイテムが登場！",
    "all_day": false,
    "dl": "unknown",
    "status": "announced",
@@ -3967,13 +3940,13 @@
    ],
    "sources": [
     {
-     "label": "Steamのお知らせ「TEKKEN 8 x Nike - Collab Collection Tra…」",
+     "label": "Steamのお知らせ「NIKEとの限定コラボアイテムが登場！」",
      "url": "https://store.steampowered.com/news/app/1778820/view/694277726961402779"
     }
    ],
    "source_key": "steam:1778820",
    "start": "2026-11-17T01:07+09:00",
-   "excerpt": "Our in-game NIKE x TEKKEN8 collaboration is coming soon🔥There will be 4 in-game items available:🥊2 NIKE sneaker models🥊1 NIKE top costume p…"
+   "excerpt": "『鉄拳3』と『鉄拳8』のキングをモチーフとした、NIKEコラボ仕様のキャラクターカスタマイズアイテムが期間限定で『鉄拳8』に登場。TEKKEN FIGHT PASSを進めることでカスタマイズアイテムを獲得することができます。さらに、コラボ期間中、バトルステージ「ARENA」がN…"
   },
   {
    "id": "steambuild-570-26718111",
@@ -4002,7 +3975,7 @@
    "title": "パッチ 26.23",
    "all_day": true,
    "dl": "yes",
-   "status": "scheduled",
+   "status": "announced",
    "basis": [
     "Riot 公式パッチスケジュール: パッチ 26.23 は 2026/11/18（太平洋時間）",
     "LoL の定期パッチは Riot クライアントでのダウンロードが必要"
@@ -4039,6 +4012,29 @@
    "source_key": "nikke",
    "start": "2026-11-19T11:00+09:00",
    "excerpt": "親愛なる指揮官様 『勝利の女神:NIKKE』はアップデートのため、2026年11月19日にメンテナンスを実施する予定です。メンテナンス中はゲームに接続できませんので、ご迷惑をおかけいたしますが、ご理解ご協力のほどよろしくお願いいたします。 メンテナンスの予定時間:2026年11…"
+  },
+  {
+   "id": "steam-3576070-696529526775088181",
+   "game": "SAZP",
+   "kind": "maint",
+   "title": "[Upcoming] 11/19 定期メンテナンスのお知らせ (JST 14:00 - 17:00)",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "scheduled",
+   "basis": [
+    "Steamのお知らせ（種類: ニュース）",
+    "告知タイトルに記載の日付「11/19 (JST 14:00 - 17:00)」"
+   ],
+   "sources": [
+    {
+     "label": "Steamのお知らせ「[Upcoming] 11/19 定期メンテナンスのお知らせ (JST 14:…」",
+     "url": "https://store.steampowered.com/news/app/3576070/view/696529526775088181"
+    }
+   ],
+   "source_key": "steam:3576070",
+   "start": "2026-11-19T14:00+09:00",
+   "end": "2026-11-19T17:00+09:00",
+   "excerpt": "こんにちは。「サドンアタック：ゼロポイント」です。「サドンアタック：ゼロポイント」では以下の日程にて定期メンテナンスを実施いたします。メンテナンス中はゲームをご利用いただけません。メンテナンス期間11/19(木) 14:00 ～ 17:00 (JST)メンテナンス期間は状況によ…"
   },
   {
    "id": "steam-4162040-701033125739758315",
@@ -4100,7 +4096,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4110,7 +4106,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4120,7 +4116,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4130,7 +4126,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4140,7 +4136,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "steam:570",
@@ -4150,7 +4146,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4160,7 +4156,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4170,7 +4166,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4180,7 +4176,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4190,7 +4186,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "tekken8",
@@ -4200,7 +4196,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "sf6_official",
@@ -4210,7 +4206,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4222,7 +4218,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4232,7 +4228,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4242,7 +4238,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4252,7 +4248,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "lol",
@@ -4262,7 +4258,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   },
   {
    "key": "nikke",
@@ -4272,7 +4268,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-17T12:54+09:00"
+   "last_success": "2026-11-18T01:00+09:00"
   }
  ]
 }
