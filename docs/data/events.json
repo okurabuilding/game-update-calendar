@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T09:58+09:00",
+ "generated_at": "2026-11-18T20:42+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8001177849,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 142591530773,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77248608639,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -73,20 +73,20 @@
    "color": "#0F6E56",
    "text_color": "#FFFFFF",
    "install": {
-    "bytes": 40181637177,
+    "bytes": 40463486290,
     "basis": "Riot の配信データ（日本サーバー・Windows・日本語で入るファイルの合計）",
     "official": false,
     "parts": [
      [
       "ロビー画面",
-      7905454402
+      7905454711
      ],
      [
       "ゲーム本体",
-      32276182775
+      32558031579
      ]
     ],
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.7.0",
-    "checked_at": "2026-11-18T09:58+09:00"
+    "checked_at": "2026-11-18T20:42+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-18T09:58+09:00",
+    "checked_at": "2026-11-18T20:42+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -189,31 +189,6 @@
   }
  ],
  "items": [
-  {
-   "id": "hoyo-HSR-upd45967008",
-   "game": "HSR",
-   "kind": "patch",
-   "title": "Fate[UBW]コラボアップデートのお知らせ",
-   "all_day": false,
-   "dl": "yes",
-   "status": "confirmed",
-   "basis": [
-    "HoYoLAB の公式お知らせ（2026/07/23 13:00 掲載）",
-    "告知に記載のアップデート日時「2026/07/21 16:00(JST)」",
-    "公式告知にデータ更新（ダウンロード）の記載あり",
-    "公式告知で実施済みを確認"
-   ],
-   "sources": [
-    {
-     "label": "HoYoLAB「Fate[UBW]コラボアップデートのお知らせ」",
-     "url": "https://www.hoyolab.com/article/45967008"
-    }
-   ],
-   "source_key": "hoyoverse:4ziysqXOQ8",
-   "start": "2026-07-21T16:00+09:00",
-   "size": "約540MB（公式告知・PC）",
-   "excerpt": "親愛なる開拓者の皆様へ 列車運営チームは2026/07/21 16:00(JST)に、コラボイベント「幻造:聖杯戦争」に伴うアップデートを行いました。2026/07/23 15:00 (JST)までにアップデートデータをダウンロードしなかった場合、強制終了が発生します。ゲームを…"
-  },
   {
    "id": "steam-2357570-714530512231729368",
    "game": "OW",
@@ -4064,6 +4039,29 @@
    "excerpt": "Dear Proxies, The Zenless Zone Zero Version 3.4 \"The Finality of the Day\" Special Program will begin on November 20 at 18:30 (UTC+8)! The l…"
   },
   {
+   "id": "svwb-01M72HK1KYR20K17MXGMJFGHT5",
+   "game": "SVWB",
+   "kind": "maint",
+   "title": "【11月26日 13:30 ～ 17:00】シーズン更新や各種施策開催などに伴うメンテナンスのお知らせ",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "scheduled",
+   "basis": [
+    "シャドバ公式サイトのお知らせ（2026/11/18 12:00 掲載）",
+    "告知に記載のメンテナンス期間「2026/11/26 13:30  ~ 17:00」"
+   ],
+   "sources": [
+    {
+     "label": "シャドバ公式サイト「【11月26日 13:30 ～ 17:00】シーズン更新や各種施策開催などに伴うメンテナンスのお知らせ」",
+     "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M72HK1KYR20K17MXGMJFGHT5"
+    }
+   ],
+   "source_key": "shadowverse_wb",
+   "start": "2026-11-26T13:30+09:00",
+   "end": "2026-11-26T17:00+09:00",
+   "excerpt": "いつもご利用いただきありがとうございます。 「Shadowverse: Worlds Beyond」運営事務局です。 シーズン更新や各種施策開催などのため、下記の時間帯にメンテナンスを実施いたします。 メンテナンス期間 2026/11/26 13:30 ~ 17:00 メンテナ…"
+  },
+  {
    "id": "lol-26-24",
    "game": "LOL",
    "kind": "patch",
@@ -4101,7 +4099,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4111,7 +4109,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4121,7 +4119,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4131,7 +4129,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4141,7 +4139,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "steam:570",
@@ -4151,7 +4149,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4161,7 +4159,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4171,7 +4169,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4181,7 +4179,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4191,7 +4189,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "tekken8",
@@ -4201,7 +4199,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "sf6_official",
@@ -4211,7 +4209,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4223,7 +4221,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4233,7 +4231,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4243,7 +4241,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4253,7 +4251,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "lol",
@@ -4263,7 +4261,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   },
   {
    "key": "nikke",
@@ -4273,7 +4271,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-18T09:58+09:00"
+   "last_success": "2026-11-18T20:42+09:00"
   }
  ]
 }
