@@ -33,7 +33,7 @@
      "first_seen": "2026-11-19T20:40+09:00"
     }
    ],
-   "checked_at": "2026-11-19T20:40+09:00",
+   "checked_at": "2026-11-20T05:37+09:00",
    "origin": "SteamCMD"
   },
   "2357570": {
@@ -64,7 +64,7 @@
      "first_seen": "2026-11-06T08:38+09:00"
     }
    ],
-   "checked_at": "2026-11-19T20:40+09:00",
+   "checked_at": "2026-11-20T05:37+09:00",
    "origin": "SteamCMD"
   },
   "1778820": {
@@ -80,7 +80,7 @@
      "first_seen": "2026-11-12T09:44+09:00"
     }
    ],
-   "checked_at": "2026-11-19T20:40+09:00",
+   "checked_at": "2026-11-20T05:37+09:00",
    "origin": "SteamCMD"
   },
   "1364780": {
@@ -96,7 +96,7 @@
      "first_seen": "2026-10-13T12:33+09:00"
     }
    ],
-   "checked_at": "2026-11-19T20:40+09:00",
+   "checked_at": "2026-11-20T05:37+09:00",
    "origin": "SteamCMD"
   },
   "570": {
@@ -250,9 +250,14 @@
      "buildid": 26777257,
      "timeupdated": 1795067307,
      "first_seen": "2026-11-19T20:40+09:00"
+    },
+    {
+     "buildid": 26793125,
+     "timeupdated": 1795115015,
+     "first_seen": "2026-11-20T05:37+09:00"
     }
    ],
-   "checked_at": "2026-11-19T20:40+09:00",
+   "checked_at": "2026-11-20T05:37+09:00",
    "origin": "SteamCMD"
   },
   "2584990": {
@@ -273,7 +278,7 @@
      "first_seen": "2026-11-06T15:46+09:00"
     }
    ],
-   "checked_at": "2026-11-19T20:40+09:00",
+   "checked_at": "2026-11-20T05:37+09:00",
    "origin": "SteamCMD"
   },
   "4162040": {
@@ -294,7 +299,7 @@
      "first_seen": "2026-10-21T09:56+09:00"
     }
    ],
-   "checked_at": "2026-11-19T20:40+09:00",
+   "checked_at": "2026-11-20T05:37+09:00",
    "origin": "SteamCMD"
   }
  },
@@ -356,58 +361,58 @@
  },
  "source_status": {
   "steambuild": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "steam:3576070": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "steam:2357570": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "steam:1778820": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "steam:1364780": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "steam:570": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "steam:2584990": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "steam:4162040": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "hoyoplay": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "hoyoverse:gopR6Cufr3": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "hoyoverse:4ziysqXOQ8": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "hoyoverse:U5hbdsT9W7": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "lol": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "nikke": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "blizzard_ow": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "shadowverse_wb": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "tekken8": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   },
   "sf6_official": {
-   "last_success": "2026-11-19T20:40+09:00"
+   "last_success": "2026-11-20T05:37+09:00"
   }
  },
  "install_size": {
@@ -419,7 +424,7 @@
     ]
    ],
    "from": "steam",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "OW": {
    "parts": [
@@ -429,7 +434,7 @@
     ]
    ],
    "from": "steam",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "T8": {
    "parts": [
@@ -439,7 +444,7 @@
     ]
    ],
    "from": "steam",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "SF6": {
    "parts": [
@@ -449,17 +454,17 @@
     ]
    ],
    "from": "steam",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "DOTA": {
    "parts": [
     [
      "本体",
-     77321550873
+     77321569817
     ]
    ],
    "from": "steam",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "LOL": {
    "parts": [
@@ -469,12 +474,12 @@
     ],
     [
      "ゲーム本体",
-     32558031579
+     32558031587
     ]
    ],
    "riot": {
-    "key": "https://lol.secure.dyn.riotcdn.net/channels/public/releases/AE6F2BFDFBCD1DBB.manifest|https://lol.secure.dyn.riotcdn.net/channels/public/releases/8FF1D2418BFFC3B1.manifest",
-    "version": "16.23.8396405",
+    "key": "https://lol.secure.dyn.riotcdn.net/channels/public/releases/AE6F2BFDFBCD1DBB.manifest|https://lol.secure.dyn.riotcdn.net/channels/public/releases/D70C21DDB07188AA.manifest",
+    "version": "16.23.8392999",
     "parts": [
      [
       "ロビー画面",
@@ -482,12 +487,12 @@
      ],
      [
       "ゲーム本体",
-      32558031579
+      32558031587
      ]
     ]
    },
    "from": "riot",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "SVWB": {
    "parts": [
@@ -511,7 +516,7 @@
    ],
    "version": "Ver.7.2.0",
    "from": "hoyoplay",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "HSR": {
    "parts": [
@@ -526,7 +531,7 @@
    ],
    "version": "Ver.4.7.0",
    "from": "hoyoplay",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "ZZZ": {
    "parts": [
@@ -540,7 +545,7 @@
     ]
    ],
    "from": "steam+hoyo_voice",
-   "checked_at": "2026-11-19T20:40+09:00"
+   "checked_at": "2026-11-20T05:37+09:00"
   },
   "NIKKE": {
    "parts": [
