@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:19+09:00",
+ "generated_at": "2026-11-20T20:40+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8108185173,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 142584992922,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -63,7 +63,7 @@
     "bytes": 77347001196,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -73,7 +73,7 @@
    "color": "#0F6E56",
    "text_color": "#FFFFFF",
    "install": {
-    "bytes": 40463486332,
+    "bytes": 40463486324,
     "basis": "Riot の配信データ（日本サーバー・Windows・日本語で入るファイルの合計）",
     "official": false,
     "parts": [
@@ -83,10 +83,10 @@
      ],
      [
       "ゲーム本体",
-      32558031587
+      32558031579
      ]
     ],
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.7.0",
-    "checked_at": "2026-11-20T11:19+09:00"
+    "checked_at": "2026-11-20T20:40+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-20T11:19+09:00",
+    "checked_at": "2026-11-20T20:40+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -189,46 +189,6 @@
   }
  ],
  "items": [
-  {
-   "id": "nikke-494cbd92a3b04a4f24aa5dda7f1e8e684afc",
-   "game": "NIKKE",
-   "kind": "news",
-   "title": "7月23日のアップデートによる改善事項",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "NIKKE 公式サイトのお知らせ"
-   ],
-   "sources": [
-    {
-     "label": "NIKKE 公式サイト「7月23日のアップデートによる改善事項」",
-     "url": "https://nikke-jp.com/newsdetail.html?content_id=494cbd92a3b04a4f24aa5dda7f1e8e684afc"
-    }
-   ],
-   "source_key": "nikke",
-   "start": "2026-07-23T17:36+09:00"
-  },
-  {
-   "id": "nikke-fd11e0faa97f4a4809ab02ca83bf2f18d559",
-   "game": "NIKKE",
-   "kind": "news",
-   "title": "7月23日既知の問題について（7月29日更新）",
-   "all_day": false,
-   "dl": "unknown",
-   "status": "announced",
-   "basis": [
-    "NIKKE 公式サイトのお知らせ"
-   ],
-   "sources": [
-    {
-     "label": "NIKKE 公式サイト「7月23日既知の問題について（7月29日更新）」",
-     "url": "https://nikke-jp.com/newsdetail.html?content_id=fd11e0faa97f4a4809ab02ca83bf2f18d559"
-    }
-   ],
-   "source_key": "nikke",
-   "start": "2026-07-23T17:36+09:00"
-  },
   {
    "id": "steam-3576070-705526483146244842",
    "game": "SAZP",
@@ -1325,21 +1285,14 @@
    "title": "Revenants of Azvaldt / アズヴォルト・レヴナント カードパック第9弾発売",
    "all_day": false,
    "dl": "likely",
-   "status": "confirmed",
+   "status": "announced",
    "basis": [
-    "Steamのお知らせ（種類: ニュース）",
-    "関連する告知:「【8月27日 14:00 ～ 17:00】新カードパック追加などの更新に伴うメンテナンスのお知らせ【8/27 17:00追記】」",
-    "告知に記載のメンテナンス期間「2026/8/27 14:00 ~ 17:00」",
-    "公式告知で実施済み（終了・公開）を確認"
+    "Steamのお知らせ（種類: ニュース）"
    ],
    "sources": [
     {
      "label": "Steamのお知らせ「Revenants of Azvaldt / アズヴォルト・レヴナント カード…」",
      "url": "https://store.steampowered.com/news/app/2584990/view/707781454544765172"
-    },
-    {
-     "label": "シャドバ公式サイト「【8月27日 14:00 ～ 17:00】新カードパック追加などの更新に伴うメンテナンスのお知らせ【8/27 17:00追記】」",
-     "url": "https://shadowverse-wb.com/ja/news/detail/?id=01KZZTYCGZWR8FF4F34J3EC8VJ"
     }
    ],
    "source_key": "steam:2584990",
@@ -3975,7 +3928,7 @@
    "id": "nikke-4a0d890ca6701a4a05aa58aa0c8356d329e4",
    "game": "NIKKE",
    "kind": "patch",
-   "title": "11月19日のアップデートについて（11月19日更新）",
+   "title": "11月19日のアップデートについて（11月20日更新）",
    "all_day": true,
    "dl": "likely",
    "status": "confirmed",
@@ -3986,7 +3939,7 @@
    ],
    "sources": [
     {
-     "label": "NIKKE 公式サイト「11月19日のアップデートについて（11月19日更新）」",
+     "label": "NIKKE 公式サイト「11月19日のアップデートについて（11月20日更新）」",
      "url": "https://nikke-jp.com/newsdetail.html?content_id=4a0d890ca6701a4a05aa58aa0c8356d329e4"
     }
    ],
@@ -4120,13 +4073,34 @@
    "start": "2026-11-20T11:00+09:00"
   },
   {
+   "id": "steam-3576070-704411368981267132",
+   "game": "SAZP",
+   "kind": "news",
+   "title": "[お知らせ] ニックネーム再作成不具合によるデータ統合のご案内",
+   "all_day": false,
+   "dl": "unknown",
+   "status": "announced",
+   "basis": [
+    "Steamのお知らせ（種類: ニュース）"
+   ],
+   "sources": [
+    {
+     "label": "Steamのお知らせ「[お知らせ] ニックネーム再作成不具合によるデータ統合のご案内」",
+     "url": "https://store.steampowered.com/news/app/3576070/view/704411368981267132"
+    }
+   ],
+   "source_key": "steam:3576070",
+   "start": "2026-11-20T14:00+09:00",
+   "excerpt": "こんにちは。サドンアタック：ゼロポイントです。一部のアカウントで、初めてニックネームを作成した後、ログイン時に再度ニックネーム作成画面が表示され、以前のゲームデータを利用できない問題が発生しておりました。この不具合は11/5(木)に修正され、現在、追加で発生することはありません…"
+  },
+  {
    "id": "steam-4162040-701033125739758315",
    "game": "ZZZ",
    "kind": "event",
    "title": "Zenless Zone Zero Version 3.4 \"The Finality of the Day\" Special Program Announce",
    "all_day": false,
    "dl": "unknown",
-   "status": "scheduled",
+   "status": "announced",
    "basis": [
     "Steamのお知らせ（種類: 配信）"
    ],
@@ -4202,7 +4176,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4212,7 +4186,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4222,7 +4196,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4232,7 +4206,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4242,7 +4216,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "steam:570",
@@ -4252,7 +4226,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4262,7 +4236,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4272,7 +4246,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4282,7 +4256,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4292,7 +4266,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "tekken8",
@@ -4302,7 +4276,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "sf6_official",
@@ -4312,7 +4286,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4324,7 +4298,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4334,7 +4308,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4344,7 +4318,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4354,7 +4328,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "lol",
@@ -4364,7 +4338,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   },
   {
    "key": "nikke",
@@ -4374,7 +4348,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T11:19+09:00"
+   "last_success": "2026-11-20T20:40+09:00"
   }
  ]
 }
