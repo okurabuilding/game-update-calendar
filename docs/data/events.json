@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:40+09:00",
+ "generated_at": "2026-11-21T11:15+09:00",
  "games": [
   {
    "id": "SAZP",
@@ -11,7 +11,7 @@
     "bytes": 8108185173,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -24,7 +24,7 @@
     "bytes": 84278446513,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -37,7 +37,7 @@
     "bytes": 142584992922,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -50,7 +50,7 @@
     "bytes": 90621933359,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -60,10 +60,10 @@
    "color": "#712B13",
    "text_color": "#FFFFFF",
    "install": {
-    "bytes": 77347001196,
+    "bytes": 77346294160,
     "basis": "Steam の配信データ（Windows・日本語で入るファイルの合計）",
     "official": false,
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -86,7 +86,7 @@
       32558031579
      ]
     ],
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -123,7 +123,7 @@
      ]
     ],
     "version": "Ver.7.2.0",
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -147,7 +147,7 @@
      ]
     ],
     "version": "Ver.4.7.0",
-    "checked_at": "2026-11-20T20:40+09:00"
+    "checked_at": "2026-11-21T11:15+09:00"
    }
   },
   {
@@ -170,7 +170,7 @@
       5190804301
      ]
     ],
-    "checked_at": "2026-11-20T20:40+09:00",
+    "checked_at": "2026-11-21T11:15+09:00",
     "note": "Steam 版の配信データには音声が含まれていないため、日本語音声の大きさを足しています"
    }
   },
@@ -4116,6 +4116,26 @@
    "excerpt": "Dear Proxies, The Zenless Zone Zero Version 3.4 \"The Finality of the Day\" Special Program will begin on November 20 at 18:30 (UTC+8)! The l…"
   },
   {
+   "id": "steambuild-570-26825343",
+   "game": "DOTA",
+   "kind": "patch",
+   "title": "クライアント更新",
+   "all_day": false,
+   "dl": "yes",
+   "status": "confirmed",
+   "basis": [
+    "Steam の公開ビルドが更新されました（ビルドID 26825343、2026/11/21 09:45）"
+   ],
+   "sources": [
+    {
+     "label": "Steam ストアページ",
+     "url": "https://store.steampowered.com/app/570/"
+    }
+   ],
+   "source_key": "steambuild",
+   "start": "2026-11-21T09:45+09:00"
+  },
+  {
    "id": "svwb-01M72HK1KYR20K17MXGMJFGHT5",
    "game": "SVWB",
    "kind": "maint",
@@ -4176,7 +4196,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "steam:3576070",
@@ -4186,7 +4206,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "steam:2357570",
@@ -4196,7 +4216,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "steam:1778820",
@@ -4206,7 +4226,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "steam:1364780",
@@ -4216,7 +4236,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "steam:570",
@@ -4226,7 +4246,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "steam:2584990",
@@ -4236,7 +4256,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "steam:4162040",
@@ -4246,7 +4266,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "blizzard_ow",
@@ -4256,7 +4276,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "shadowverse_wb",
@@ -4266,7 +4286,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "tekken8",
@@ -4276,7 +4296,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "sf6_official",
@@ -4286,7 +4306,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "hoyoplay",
@@ -4298,7 +4318,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "hoyoverse:gopR6Cufr3",
@@ -4308,7 +4328,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "hoyoverse:4ziysqXOQ8",
@@ -4318,7 +4338,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "hoyoverse:U5hbdsT9W7",
@@ -4328,7 +4348,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "lol",
@@ -4338,7 +4358,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   },
   {
    "key": "nikke",
@@ -4348,7 +4368,7 @@
    ],
    "ok": true,
    "message": "",
-   "last_success": "2026-11-20T20:40+09:00"
+   "last_success": "2026-11-21T11:15+09:00"
   }
  ]
 }
